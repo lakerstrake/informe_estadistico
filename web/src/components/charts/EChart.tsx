@@ -24,7 +24,10 @@ export function EChart({ option, height = 360 }: { option: EChartsOption; height
   }, []);
 
   useEffect(() => {
-    chartRef.current?.setOption(option, { notMerge: true });
+    chartRef.current?.setOption(
+      { animationDuration: 900, animationEasing: 'cubicOut', ...option } as EChartsOption,
+      { notMerge: true }
+    );
   }, [option]);
 
   return <div ref={ref} style={{ height, width: '100%' }} role="img" />;

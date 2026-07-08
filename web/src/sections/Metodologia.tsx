@@ -3,15 +3,15 @@ import { Card } from '../components/ui/Card';
 import { Formula } from '../components/ui/Formula';
 
 const ficha: [string, string][] = [
-  ['Fuente', 'Observatorio de Salud de Bogotá (SaluData)'],
-  ['Entidad responsable', 'Secretaría Distrital de Salud de Bogotá'],
-  ['Indicador', 'Razón de prevalencia de sífilis gestacional en Bogotá D.C.'],
-  ['Cobertura', 'Bogotá D.C.'],
-  ['Periodo analizado', '2018–2025 (2025 preliminar)'],
-  ['Periodicidad', 'Trimestral'],
-  ['Fuente del numerador', 'SIVIGILA'],
-  ['Fuente del denominador', 'DANE y RUAF'],
-  ['Unidad de medida', 'Casos por cada 1,000 nacidos vivos y muertes fetales'],
+  ['📊 Fuente', 'Observatorio de Salud de Bogotá (SaluData)'],
+  ['🏛️ Entidad responsable', 'Secretaría Distrital de Salud de Bogotá'],
+  ['📈 Indicador', 'Razón de prevalencia de sífilis gestacional en Bogotá D.C.'],
+  ['🗺️ Cobertura', 'Bogotá D.C.'],
+  ['📅 Periodo analizado', '2018–2025 (2025 preliminar)'],
+  ['🔁 Periodicidad', 'Trimestral'],
+  ['🧾 Fuente del numerador', 'SIVIGILA'],
+  ['🧮 Fuente del denominador', 'DANE y RUAF'],
+  ['📐 Unidad de medida', 'Casos por cada 1,000 nacidos vivos y muertes fetales'],
 ];
 
 export function Metodologia() {

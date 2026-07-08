@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section
       id="inicio"
-      className="relative min-h-[100svh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-azul-deep via-azul-dark to-azul text-white px-5 py-24"
+      className="hero-anim relative min-h-[100svh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-azul-deep via-azul-dark to-azul text-white px-5 py-24"
     >
       {/* patrón de puntos */}
       <div className="absolute inset-0 opacity-[0.08]" aria-hidden>
@@ -99,6 +99,24 @@ export function Hero() {
               <p className="text-[0.7rem] md:text-xs text-white/65 mt-0.5">{c.etiqueta}</p>
             </div>
           ))}
+        </div>
+
+        {/* Mini-gráfica animada: casos por año */}
+        <div className="mt-10 inline-flex items-end gap-2 bg-white/[0.07] backdrop-blur border border-white/15 rounded-2xl px-5 pt-4 pb-3">
+          {stats.anio.tabla.map((r, i) => (
+            <div key={r.anio} className="flex flex-col items-center gap-1.5">
+              <motion.div
+                className="w-5 md:w-7 rounded-t-[3px] bg-gradient-to-t from-[#4a8bab] to-[#ffb98a]"
+                initial={{ height: 0 }}
+                animate={{ height: (r.fi / 158) * 56 }}
+                transition={{ delay: 0.6 + i * 0.08, duration: 0.6, ease: 'easeOut' }}
+              />
+              <span className="text-[0.55rem] md:text-[0.65rem] text-white/55 tnum">{r.anio}</span>
+            </div>
+          ))}
+          <span className="text-[0.6rem] md:text-xs text-white/60 ml-3 mb-4 max-w-24 text-left leading-tight">
+            casos notificados por año
+          </span>
         </div>
       </motion.div>
 

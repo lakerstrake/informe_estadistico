@@ -38,6 +38,7 @@ export function StatCard({
   prefix = '',
   label,
   accent = 'azul',
+  icon,
 }: {
   value: number;
   decimals?: number;
@@ -45,11 +46,13 @@ export function StatCard({
   prefix?: string;
   label: string;
   accent?: keyof typeof ACCENTS;
+  icon?: string;
 }) {
   const a = ACCENTS[accent];
   return (
     <div className="relative bg-white rounded-2xl border border-azul/10 shadow-[0_1px_3px_rgba(9,46,65,0.06)] hover:shadow-[0_10px_30px_rgba(9,46,65,0.12)] hover:-translate-y-1 transition-all duration-300 p-5 md:p-6 text-center overflow-hidden">
       <span className={`absolute top-0 inset-x-0 h-1 bg-gradient-to-r ${a.bar}`} aria-hidden />
+      {icon && <div className="text-2xl mb-1" aria-hidden>{icon}</div>}
       <div className={`tnum text-3xl md:text-4xl font-extrabold ${a.text}`}>
         {prefix}
         <CountUp end={value} decimals={decimals} />

@@ -2,10 +2,10 @@ import type { EChartsOption } from 'echarts';
 import * as echarts from 'echarts/core';
 import { COLORS, PALETTE, SERIES_BLUE, SERIES_ORANGE, fmt } from '../../lib/format';
 
-const AXIS_INK = '#5b6b78';
-const GRID_LINE = '#e8eef3';
+const AXIS_INK = '#3d4c59';
+const GRID_LINE = '#e3eaf0';
 
-const baseTextStyle = { fontFamily: 'Inter, sans-serif', color: AXIS_INK, fontSize: 12 };
+const baseTextStyle = { fontFamily: 'Inter, sans-serif', color: AXIS_INK, fontSize: 12.5, fontWeight: 500 as const };
 
 const tooltipStyle = {
   backgroundColor: '#ffffff',
@@ -223,7 +223,7 @@ export function radarOption(indicators: { name: string; max?: number }[], values
       splitArea: { areaStyle: { color: ['#ffffff', '#f3f8fb'] } },
       splitLine: { lineStyle: { color: GRID_LINE } },
       axisLine: { lineStyle: { color: GRID_LINE } },
-      axisName: { color: AXIS_INK, fontSize: 11 },
+      axisName: { color: AXIS_INK, fontSize: 11.5, fontWeight: 600 },
     },
     series: [
       {

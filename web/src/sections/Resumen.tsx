@@ -17,16 +17,16 @@ export function Resumen() {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
         <Reveal delay={0.05}>
-          <StatCard value={stats.meta.n} label="Registros analizados (2018–2025)" accent="azul" />
+          <StatCard value={stats.meta.n} label="Registros analizados (2018–2025)" accent="azul" icon="🗂️" />
         </Reveal>
         <Reveal delay={0.1}>
-          <StatCard value={stats.edad.stats.media} decimals={2} suffix=" años" label="Edad materna promedio" accent="naranja" />
+          <StatCard value={stats.edad.stats.media} decimals={2} suffix=" años" label="Edad materna promedio" accent="naranja" icon="👩‍🍼" />
         </Reveal>
         <Reveal delay={0.15}>
-          <StatCard value={stats.migrante[0].pct} decimals={1} suffix="%" label="Gestantes de nacionalidad colombiana" accent="verde" />
+          <StatCard value={stats.migrante[0].pct} decimals={1} suffix="%" label="Gestantes de nacionalidad colombiana" accent="verde" icon="🇨🇴" />
         </Reveal>
         <Reveal delay={0.2}>
-          <StatCard value={stats.regresion.r2 * 100} decimals={1} suffix="%" label="Variación explicada por el año (r²)" accent="azul" />
+          <StatCard value={stats.regresion.r2 * 100} decimals={1} suffix="%" label="Variación explicada por el año (r²)" accent="azul" icon="📉" />
         </Reveal>
       </div>
 
