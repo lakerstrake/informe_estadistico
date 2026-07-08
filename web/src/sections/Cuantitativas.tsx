@@ -4,7 +4,7 @@ import { Card } from '../components/ui/Card';
 import { Tabs } from '../components/ui/Tabs';
 import { Formula } from '../components/ui/Formula';
 import { EChart } from '../components/charts/EChart';
-import { barOption, lineOption, radarOption, funnelOption, scatterTrendOption, densityCurveOption, comparisonBarLineOption } from '../components/charts/options';
+import { barOption, lineOption, radarOption, funnelOption, scatterTrendOption, densityCurveOption, comparisonBarLineOption, boxplotOption } from '../components/charts/options';
 import { ExplainButton } from '../components/ExplainContext';
 import { fmt, fmtPct } from '../lib/format';
 
@@ -108,6 +108,16 @@ function EdadTab() {
         <Card className="p-5">
           <ChartTitle>Histograma</ChartTitle>
           <EChart option={barOption(cats, vals)} height={280} />
+        </Card>
+        <Card className="p-5">
+          <ChartTitle>Diagrama de caja y bigotes — Edad</ChartTitle>
+          <EChart
+            option={boxplotOption({ min: s.min, q1: s.q1, median: s.mediana, q3: s.q3, max: s.max, mean: s.media, label: 'Edad' })}
+            height={200}
+          />
+          <p className="text-xs text-gris mt-1.5 leading-snug">
+            Caja = rango intercuartílico (Q1–Q3) · línea central = mediana · línea naranja punteada = media.
+          </p>
         </Card>
       </div>
       <div className="grid sm:grid-cols-2 gap-6">

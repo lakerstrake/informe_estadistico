@@ -3,6 +3,7 @@ import { Section, Reveal } from '../components/ui/Section';
 import { Card } from '../components/ui/Card';
 import { Formula } from '../components/ui/Formula';
 import { Icon } from '../components/ui/Icon';
+import { DataExplorer } from '../components/DataExplorer';
 
 const ficha: [string, string, string][] = [
   ['layers', 'Fuente', 'Observatorio de Salud de Bogotá (SaluData)'],
@@ -104,6 +105,10 @@ export function Metodologia() {
             <FlowNode icon="pulse" title="Razón de prevalencia" sub="Casos por 1.000 nacidos vivos" tag="Indicador final" color="naranja" />
           </div>
         </Card>
+      </Reveal>
+
+      <Reveal delay={0.2}>
+        <DataExplorer />
       </Reveal>
     </Section>
   );

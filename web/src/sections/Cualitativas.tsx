@@ -4,6 +4,7 @@ import { Card } from '../components/ui/Card';
 import { Tabs } from '../components/ui/Tabs';
 import { EChart } from '../components/charts/EChart';
 import { barOption, pieOption, funnelOption, radarOption } from '../components/charts/options';
+import { WordCloud } from '../components/charts/WordCloud';
 import { ExplainButton } from '../components/ExplainContext';
 import { fmt, fmtPct } from '../lib/format';
 
@@ -144,7 +145,11 @@ function RegimenTab() {
           <ChartTitle>Participación porcentual</ChartTitle>
           <EChart option={pieOption(cats, vals)} height={280} />
         </Card>
-        <Card className="p-5 sm:col-span-2">
+        <Card className="p-5">
+          <ChartTitle>Diagrama de embudo</ChartTitle>
+          <EChart option={funnelOption(cats, vals)} height={300} />
+        </Card>
+        <Card className="p-5">
           <ChartTitle>Comparación por régimen (radar)</ChartTitle>
           <EChart option={radarOption(cats.map((c) => ({ name: c })), vals)} height={300} />
         </Card>
@@ -184,6 +189,15 @@ function EnfoqueTab() {
         <Card className="p-5">
           <ChartTitle>Distribución porcentual</ChartTitle>
           <EChart option={pieOption(cats, vals, { donut: true })} height={280} />
+        </Card>
+        <Card className="p-5 sm:col-span-2">
+          <ChartTitle>Nube de palabras (tamaño proporcional a la frecuencia)</ChartTitle>
+          <WordCloud
+            items={stats.enfoque.map((r) => ({
+              text: r.categoria === 'Negro-mulato-afro colombiano' ? 'Afrocolombiano' : r.categoria,
+              weight: r.fi,
+            }))}
+          />
         </Card>
       </div>
     </div>

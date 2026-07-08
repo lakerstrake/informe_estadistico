@@ -283,6 +283,62 @@ export function funnelOption(categories: string[], values: number[]): EChartsOpt
   };
 }
 
+export function boxplotOption(v: {
+  min: number;
+  q1: number;
+  median: number;
+  q3: number;
+  max: number;
+  mean: number;
+  label: string;
+}): EChartsOption {
+  return {
+    textStyle: baseTextStyle,
+    grid: { left: 12, right: 24, top: 16, bottom: 34, containLabel: true },
+    tooltip: {
+      trigger: 'item',
+      ...tooltipStyle,
+      formatter: () =>
+        `<b>${v.label}</b><br/>Máximo: ${fmt(v.max)}<br/>Q3: ${fmt(v.q3, 2)}<br/>Mediana: ${fmt(v.median, 2)}<br/>Q1: ${fmt(v.q1, 2)}<br/>Mínimo: ${fmt(v.min)}<br/>RIQ (Q3−Q1): ${fmt(v.q3 - v.q1, 2)}`,
+    },
+    xAxis: {
+      type: 'value',
+      name: 'Edad (años)',
+      nameLocation: 'middle',
+      nameGap: 26,
+      nameTextStyle: { color: AXIS_INK, fontWeight: 600 },
+      min: Math.floor((v.min - 2) / 5) * 5,
+      max: Math.ceil((v.max + 2) / 5) * 5,
+      axisLine: { lineStyle: { color: GRID_LINE } },
+      splitLine: { lineStyle: { color: GRID_LINE } },
+      axisLabel: { color: AXIS_INK },
+    },
+    yAxis: {
+      type: 'category',
+      data: [v.label],
+      axisLine: { lineStyle: { color: GRID_LINE } },
+      axisTick: { show: false },
+      axisLabel: { color: AXIS_INK, fontWeight: 600 },
+    },
+    series: [
+      {
+        type: 'boxplot',
+        data: [[v.min, v.q1, v.median, v.q3, v.max]],
+        boxWidth: [24, 46],
+        itemStyle: { color: SERIES_BLUE + '26', borderColor: SERIES_BLUE, borderWidth: 2 },
+        emphasis: { itemStyle: { borderColor: COLORS.azulDark, borderWidth: 2.5 } },
+        markLine: {
+          silent: true,
+          symbol: 'none',
+          data: [{ xAxis: v.mean }],
+          lineStyle: { color: SERIES_ORANGE, type: 'dashed', width: 2 },
+          label: { formatter: `media ${fmt(v.mean, 1)}`, color: SERIES_ORANGE, fontWeight: 700, position: 'insideEndTop' },
+        },
+      },
+    ],
+  };
+}
+
 export function scatterTrendOption(
   points: { x: number; y: number }[],
   trend: { x: number; y: number }[],

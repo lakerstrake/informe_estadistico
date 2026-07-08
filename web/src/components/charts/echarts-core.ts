@@ -6,6 +6,7 @@ import {
   RadarChart,
   FunnelChart,
   ScatterChart,
+  BoxplotChart,
 } from 'echarts/charts';
 import {
   GridComponent,
@@ -24,12 +25,14 @@ echarts.use([
   RadarChart,
   FunnelChart,
   ScatterChart,
+  BoxplotChart,
   GridComponent,
   TooltipComponent,
   LegendComponent,
   TitleComponent,
   DatasetComponent,
   MarkLineComponent,
+  BoxplotChart,
   SVGRenderer,
 ]);
 
