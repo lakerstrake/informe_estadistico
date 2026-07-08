@@ -49,6 +49,22 @@ export function Conclusiones() {
           </Reveal>
         ))}
       </div>
+
+      <Reveal delay={0.3}>
+        <div className="relative overflow-hidden rounded-2xl mt-8 h-44 md:h-56 border border-white/15">
+          <img
+            src={`${import.meta.env.BASE_URL}img/prevencion.avif`}
+            alt="Prueba de laboratorio para tamizaje de sífilis"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-azul-deep/92 via-azul-dark/65 to-azul/30" />
+          <div className="absolute inset-0 flex items-center px-6 md:px-12">
+            <p className="text-white text-lg md:text-2xl font-semibold max-w-2xl leading-snug">
+              Una prueba oportuna durante el control prenatal evita la transmisión materno-infantil de la sífilis.
+            </p>
+          </div>
+        </div>
+      </Reveal>
     </Section>
   );
 }

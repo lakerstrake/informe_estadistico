@@ -1,10 +1,28 @@
 import { Section, Reveal } from '../components/ui/Section';
 import { Accordion } from '../components/ui/Accordion';
+import { Figure } from '../components/ui/Figure';
 
 export function MarcoTeorico() {
   return (
     <Section id="marco-teorico" kicker="Fundamentos" title="Marco teórico, planteamiento y objetivos">
       <Reveal>
+        <div className="grid lg:grid-cols-[1.4fr_1fr] gap-6 items-stretch mb-8">
+          <Figure
+            src="img/que es.png"
+            alt="Infografía: qué es la sífilis gestacional"
+            fit="contain"
+            ratio="16 / 9"
+            caption="Infografía educativa · Día Mundial de la Sífilis (fuente: Savia Salud EPS)."
+            className="min-w-0"
+          />
+          <Figure
+            src="img/treponema.png"
+            alt="Bacteria Treponema pallidum, agente causal de la sífilis"
+            ratio="3 / 2"
+            caption="Treponema pallidum, la bacteria que causa la sífilis (imagen: Química Tarri)."
+            className="min-w-0"
+          />
+        </div>
         <Accordion
           items={[
             {
@@ -51,15 +69,24 @@ export function MarcoTeorico() {
               icon: 'alert',
               title: 'Planteamiento del problema',
               content: (
-                <p>
-                  La sífilis gestacional continúa siendo un problema de salud pública debido a las complicaciones
+                <>
+                  <Figure
+                    src="img/control-prenatal.avif"
+                    alt="Control prenatal de una gestante"
+                    ratio="4 / 3"
+                    caption="El control prenatal oportuno permite detectar y tratar la sífilis gestacional a tiempo."
+                    className="md:float-right md:w-80 md:ml-6 mb-4"
+                  />
+                  <p>
+                    La sífilis gestacional continúa siendo un problema de salud pública debido a las complicaciones
                   que puede generar tanto para la madre como para el recién nacido. En Bogotá se presentan
                   diferencias en la prevalencia según características sociodemográficas como la condición
                   migratoria, el régimen de afiliación, el enfoque diferencial y la edad de las gestantes. A partir
                   de la información disponible en SaluData, surge la necesidad de analizar estadísticamente estas
                   variables para identificar patrones que contribuyan a comprender mejor el comportamiento de esta
-                  enfermedad y apoyar la formulación de estrategias de prevención.
-                </p>
+                    enfermedad y apoyar la formulación de estrategias de prevención.
+                  </p>
+                </>
               ),
             },
             {

@@ -13,6 +13,15 @@ export function Hero() {
       id="inicio"
       className="hero-anim relative min-h-[100svh] flex flex-col items-center [justify-content:safe_center] overflow-hidden bg-gradient-to-br from-azul-deep via-azul-dark to-azul text-white px-5 py-20 md:py-24"
     >
+      {/* foto de fondo (control prenatal) muy sutil bajo el degradado */}
+      <img
+        src={`${import.meta.env.BASE_URL}img/hero-fondo.avif`}
+        alt=""
+        aria-hidden
+        className="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-luminosity pointer-events-none"
+      />
+      <div className="absolute inset-0 bg-gradient-to-br from-azul-deep/80 via-azul-dark/70 to-azul/70" aria-hidden />
+
       {/* patrón de puntos */}
       <div className="absolute inset-0 opacity-[0.08]" aria-hidden>
         <svg width="100%" height="100%">

@@ -25,6 +25,12 @@ html {
 /* Evita cualquier desborde horizontal accidental */
 html, body { overflow-x: clip; }
 
+/* En pantallas grandes (proyector/monitor) agranda todo proporcionalmente
+   y aprovecha el ancho: al escalar la raíz, todo lo medido en rem crece. */
+@media (min-width: 1600px) { html { font-size: 17.5px; } }
+@media (min-width: 1920px) { html { font-size: 19px; } }
+@media (min-width: 2560px) { html { font-size: 21px; } }
+
 
 body {
   font-family: var(--font-sans);

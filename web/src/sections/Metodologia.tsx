@@ -47,6 +47,21 @@ function FlowSep({ children }: { children: ReactNode }) {
 export function Metodologia() {
   return (
     <Section id="metodologia" kicker="De dónde salen los datos" title="Base de datos y metodología">
+      <Reveal>
+        <div className="relative overflow-hidden rounded-2xl border border-azul/10 shadow-[0_8px_28px_rgba(9,46,65,0.12)] mb-8 h-44 md:h-60">
+          <img
+            src={`${import.meta.env.BASE_URL}img/bogota.avif`}
+            alt="Bogotá D.C."
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-azul-deep/90 via-azul-dark/55 to-transparent" />
+          <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-12 text-white">
+            <p className="text-[0.7rem] md:text-xs uppercase tracking-[0.2em] text-white/70 mb-1">Territorio del estudio</p>
+            <p className="display-serif text-2xl md:text-4xl font-bold">Bogotá D.C. · 2018–2025</p>
+            <p className="text-white/80 text-sm md:text-base mt-1">1.186 registros del Observatorio de Salud de Bogotá (SaluData)</p>
+          </div>
+        </div>
+      </Reveal>
       <div className="grid md:grid-cols-2 gap-8 items-start">
         <Reveal>
           <Card className="p-6">

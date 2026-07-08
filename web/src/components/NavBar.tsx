@@ -46,7 +46,7 @@ export function NavBar() {
         scrolled ? 'bg-white/90 backdrop-blur-md shadow-[0_1px_12px_rgba(9,46,65,0.08)]' : 'bg-transparent'
       }`}
     >
-      <div className="max-w-6xl mx-auto px-5 md:px-10 h-16 flex items-center justify-between">
+      <div className="max-w-[88rem] mx-auto px-5 md:px-10 h-16 flex items-center justify-between">
         <a href="#inicio" className="flex items-center gap-2.5 font-extrabold text-azul-dark">
           <img src={`${import.meta.env.BASE_URL}logo.png`} alt="UMNG" className="h-8 w-auto" />
           <span className={`hidden sm:inline text-sm md:text-base ${scrolled ? '' : 'text-white'}`}>

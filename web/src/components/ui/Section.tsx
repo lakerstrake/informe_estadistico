@@ -22,7 +22,7 @@ export function Section({
         dark ? 'bg-gradient-to-br from-azul-deep via-azul-dark to-azul text-white' : ''
       }`}
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-[88rem] mx-auto">
         {title && (
           <motion.div
             initial={{ opacity: 0, y: 24 }}
