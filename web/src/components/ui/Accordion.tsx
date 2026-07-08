@@ -1,7 +1,8 @@
 import { useState, type ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Icon } from './Icon';
 
-export function Accordion({ items }: { items: { title: string; content: ReactNode }[] }) {
+export function Accordion({ items }: { items: { title: string; content: ReactNode; icon?: string }[] }) {
   const [open, setOpen] = useState<number | null>(0);
   return (
     <div className="space-y-3">
@@ -19,18 +20,30 @@ export function Accordion({ items }: { items: { title: string; content: ReactNod
             <button
               onClick={() => setOpen(isOpen ? null : i)}
               aria-expanded={isOpen}
-              className="w-full flex items-center justify-between gap-4 text-left px-6 py-5"
+              className="w-full flex items-center justify-between gap-4 text-left px-5 md:px-6 py-5"
             >
-              <span
-                className={`presentacion-grande font-bold text-base md:text-lg transition-colors ${
-                  isOpen ? 'text-azul' : 'text-azul-dark'
-                }`}
-              >
-                {item.title}
+              <span className="flex items-center gap-3.5 min-w-0">
+                {item.icon && (
+                  <span
+                    className={`shrink-0 w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${
+                      isOpen ? 'bg-azul text-white' : 'bg-azul/10 text-azul'
+                    }`}
+                    aria-hidden
+                  >
+                    <Icon name={item.icon} className="w-5 h-5" />
+                  </span>
+                )}
+                <span
+                  className={`presentacion-grande font-bold text-base md:text-lg transition-colors ${
+                    isOpen ? 'text-azul' : 'text-azul-dark'
+                  }`}
+                >
+                  {item.title}
+                </span>
               </span>
               <span
                 className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-lg font-medium transition-all duration-300 ${
-                  isOpen ? 'bg-azul text-white rotate-45' : 'bg-azul/10 text-azul'
+                  isOpen ? 'bg-naranja text-white rotate-45' : 'bg-azul/10 text-azul'
                 }`}
                 aria-hidden
               >
@@ -46,7 +59,7 @@ export function Accordion({ items }: { items: { title: string; content: ReactNod
                   transition={{ duration: 0.28, ease: 'easeInOut' }}
                   className="overflow-hidden"
                 >
-                  <div className="px-6 pb-6 text-gris leading-relaxed presentacion-grande border-t border-azul/5 pt-4">
+                  <div className="px-5 md:px-6 pb-6 text-gris leading-relaxed presentacion-grande border-t border-azul/5 pt-4">
                     {item.content}
                   </div>
                 </motion.div>

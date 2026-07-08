@@ -1,4 +1,5 @@
 import { NavBar } from './components/NavBar';
+import { ProgressRail } from './components/ProgressRail';
 import { ExplainProvider } from './components/ExplainContext';
 import { SustentacionProvider } from './components/Sustentacion';
 import { Hero } from './sections/Hero';
@@ -16,6 +17,7 @@ export default function App() {
     <ExplainProvider>
       <SustentacionProvider>
         <NavBar />
+        <ProgressRail />
         <main>
           <Hero />
           <Resumen />

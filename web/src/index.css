@@ -25,11 +25,6 @@ html {
 /* Evita cualquier desborde horizontal accidental */
 html, body { overflow-x: clip; }
 
-/* Render perezoso: las secciones fuera de pantalla no se pintan hasta acercarse */
-section[data-section] {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 900px;
-}
 
 body {
   font-family: var(--font-sans);
@@ -78,6 +73,19 @@ body {
 @keyframes heroShift { 0%,100%{background-position:0% 50%} 50%{background-position:100% 50%} }
 .hero-anim { background-size: 180% 180%; animation: heroShift 14s ease-in-out infinite; will-change: background-position; }
 
-/* Presentation mode helpers */
+/* Modo sustentación: cada apartado se encuadra como una diapositiva */
 .sustentacion .presentacion-oculto { display: none !important; }
-.sustentacion .presentacion-grande { font-size: 1.15em; line-height: 1.5; }
+.sustentacion .presentacion-grande { font-size: 1.12em; line-height: 1.5; }
+
+.sustentacion { scroll-snap-type: y proximity; }
+.sustentacion #inicio,
+.sustentacion section[data-section] {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sustentacion #inicio > *,
+.sustentacion section[data-section] > * { width: 100%; }

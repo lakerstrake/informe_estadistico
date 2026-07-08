@@ -8,7 +8,8 @@ export function MarcoTeorico() {
         <Accordion
           items={[
             {
-              title: '🧬 Marco teórico',
+              icon: 'flask',
+              title: 'Marco teórico',
               content: (
                 <div className="space-y-4">
                   <p>
@@ -47,7 +48,8 @@ export function MarcoTeorico() {
               ),
             },
             {
-              title: '❗ Planteamiento del problema',
+              icon: 'alert',
+              title: 'Planteamiento del problema',
               content: (
                 <p>
                   La sífilis gestacional continúa siendo un problema de salud pública debido a las complicaciones
@@ -61,7 +63,8 @@ export function MarcoTeorico() {
               ),
             },
             {
-              title: '🎯 Objetivos',
+              icon: 'target',
+              title: 'Objetivos',
               content: (
                 <div className="space-y-4">
                   <div>
@@ -86,7 +89,8 @@ export function MarcoTeorico() {
               ),
             },
             {
-              title: '📊 Justificación de las variables',
+              icon: 'bars',
+              title: 'Justificación de las variables',
               content: (
                 <div className="space-y-3">
                   <p><b>Migrante:</b> determinante social asociado a barreras de acceso a los servicios de salud.</p>
