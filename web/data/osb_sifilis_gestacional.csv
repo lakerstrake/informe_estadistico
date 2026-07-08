@@ -1,0 +1,1187 @@
+﻿ANO,LOCALIDAD,EDAD,MIGRANTE,REGIMEN_SEGURIDAD_SOCIAL,ENFOQUE_DIFERENCIAL,conteo
+2018,00 - Bogotá,16,Colombiano,Subsidiado,Indígena,1
+2018,00 - Bogotá,17,Colombiano,Subsidiado,Indígena,1
+2018,00 - Bogotá,18,Colombiano,Subsidiado,Indígena,1
+2018,00 - Bogotá,19,Colombiano,Subsidiado,Indígena,1
+2018,00 - Bogotá,20,Colombiano,Subsidiado,Indígena,1
+2018,00 - Bogotá,23,Colombiano,Contributivo,Indígena,1
+2018,00 - Bogotá,24,Colombiano,Subsidiado,Indígena,1
+2018,00 - Bogotá,27,Colombiano,Subsidiado,Indígena,1
+2018,00 - Bogotá,30,Colombiano,Contributivo,Indígena,1
+2018,00 - Bogotá,33,Colombiano,Subsidiado,Indígena,1
+2019,00 - Bogotá,17,Extranjero,No Asegurado,Indígena,1
+2019,00 - Bogotá,19,Colombiano,No Asegurado,Indígena,1
+2019,00 - Bogotá,37,Colombiano,Subsidiado,Indígena,1
+2020,00 - Bogotá,19,Colombiano,Subsidiado,Indígena,1
+2020,00 - Bogotá,21,Colombiano,No Asegurado,Indígena,1
+2020,00 - Bogotá,21,Colombiano,Subsidiado,Indígena,1
+2020,00 - Bogotá,22,Colombiano,Subsidiado,Indígena,2
+2021,00 - Bogotá,21,Colombiano,Subsidiado,Indígena,3
+2021,00 - Bogotá,23,Colombiano,Subsidiado,Indígena,1
+2021,00 - Bogotá,24,Colombiano,Contributivo,Indígena,1
+2021,00 - Bogotá,31,Colombiano,Subsidiado,Indígena,1
+2021,00 - Bogotá,35,Colombiano,Subsidiado,Indígena,1
+2022,00 - Bogotá,19,Colombiano,Subsidiado,Indígena,1
+2022,00 - Bogotá,21,Colombiano,Subsidiado,Indígena,1
+2022,00 - Bogotá,24,Colombiano,Subsidiado,Indígena,1
+2022,00 - Bogotá,25,Colombiano,Subsidiado,Indígena,1
+2022,00 - Bogotá,26,Colombiano,Subsidiado,Indígena,1
+2022,00 - Bogotá,31,Colombiano,Contributivo,Indígena,1
+2022,00 - Bogotá,31,Colombiano,Subsidiado,Indígena,1
+2023,00 - Bogotá,17,Colombiano,Subsidiado,Indígena,1
+2023,00 - Bogotá,19,Extranjero,No Asegurado,Indígena,1
+2023,00 - Bogotá,20,Colombiano,Subsidiado,Indígena,2
+2023,00 - Bogotá,21,Colombiano,Subsidiado,Indígena,2
+2023,00 - Bogotá,23,Colombiano,Subsidiado,Indígena,1
+2023,00 - Bogotá,26,Colombiano,Subsidiado,Indígena,1
+2024,00 - Bogotá,15,Colombiano,Indeterminado/Pendiente,Indígena,1
+2024,00 - Bogotá,17,Colombiano,Subsidiado,Indígena,1
+2024,00 - Bogotá,20,Colombiano,Subsidiado,Indígena,1
+2024,00 - Bogotá,20,Extranjero,No Asegurado,Indígena,1
+2024,00 - Bogotá,21,Colombiano,Subsidiado,Indígena,1
+2024,00 - Bogotá,28,Colombiano,Subsidiado,Indígena,1
+2024,00 - Bogotá,38,Colombiano,Subsidiado,Indígena,1
+2025,00 - Bogotá,21,Colombiano,Subsidiado,Indígena,1
+2025,00 - Bogotá,23,Colombiano,Subsidiado,Indígena,1
+2018,00 - Bogotá,16,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,17,Colombiano,Contributivo,Negro-mulato-afro colombiano,2
+2018,00 - Bogotá,20,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,21,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,22,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,23,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,24,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,24,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,28,Colombiano,Contributivo,Negro-mulato-afro colombiano,2
+2018,00 - Bogotá,28,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,29,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,34,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,34,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,39,Colombiano,No Asegurado,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,41,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,18,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,18,Extranjero,No Asegurado,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,20,Colombiano,Subsidiado,Negro-mulato-afro colombiano,3
+2019,00 - Bogotá,23,Extranjero,No Asegurado,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,24,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,25,Colombiano,Subsidiado,Negro-mulato-afro colombiano,2
+2019,00 - Bogotá,26,Extranjero,No Asegurado,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,27,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,28,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,30,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,31,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,32,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,33,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2019,00 - Bogotá,35,Extranjero,No Asegurado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,16,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,20,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,20,Extranjero,No Asegurado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,21,Colombiano,Subsidiado,Negro-mulato-afro colombiano,2
+2020,00 - Bogotá,21,Extranjero,No Asegurado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,23,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,24,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,27,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,28,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,29,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,35,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,36,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,37,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2020,00 - Bogotá,39,Colombiano,Contributivo,Negro-mulato-afro colombiano,2
+2021,00 - Bogotá,19,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,20,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,21,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,21,Extranjero,No Asegurado,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,23,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,24,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,27,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,28,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,29,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,30,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,32,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2021,00 - Bogotá,33,Colombiano,Contributivo,Negro-mulato-afro colombiano,2
+2022,00 - Bogotá,17,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2022,00 - Bogotá,20,Colombiano,Contributivo,Negro-mulato-afro colombiano,2
+2022,00 - Bogotá,22,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2022,00 - Bogotá,26,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2022,00 - Bogotá,27,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2022,00 - Bogotá,28,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2022,00 - Bogotá,34,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,18,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,19,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,21,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,22,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,22,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,23,Colombiano,Excepción,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,23,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,25,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2023,00 - Bogotá,27,Colombiano,Contributivo,Negro-mulato-afro colombiano,2
+2024,00 - Bogotá,15,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,16,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,23,Extranjero,Subsidiado,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,24,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,25,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,30,Extranjero,No Asegurado,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,31,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,33,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,35,Colombiano,Subsidiado,Negro-mulato-afro colombiano,1
+2024,00 - Bogotá,36,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2025,00 - Bogotá,19,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2025,00 - Bogotá,20,Colombiano,Subsidiado,Negro-mulato-afro colombiano,3
+2025,00 - Bogotá,48,Colombiano,Contributivo,Negro-mulato-afro colombiano,1
+2018,00 - Bogotá,13,Colombiano,Subsidiado,Otro,1
+2018,00 - Bogotá,14,Colombiano,Contributivo,Otro,1
+2018,00 - Bogotá,15,Colombiano,Contributivo,Otro,3
+2018,00 - Bogotá,15,Colombiano,Subsidiado,Otro,1
+2018,00 - Bogotá,16,Colombiano,Contributivo,Otro,5
+2018,00 - Bogotá,16,Colombiano,Subsidiado,Otro,7
+2018,00 - Bogotá,16,Extranjero,No Asegurado,Otro,1
+2018,00 - Bogotá,17,Colombiano,Contributivo,Otro,3
+2018,00 - Bogotá,17,Colombiano,Especial,Otro,1
+2018,00 - Bogotá,17,Colombiano,No Asegurado,Otro,2
+2018,00 - Bogotá,17,Colombiano,Subsidiado,Otro,11
+2018,00 - Bogotá,17,Extranjero,No Asegurado,Otro,3
+2018,00 - Bogotá,17,Extranjero,Subsidiado,Otro,1
+2018,00 - Bogotá,18,Colombiano,Contributivo,Otro,9
+2018,00 - Bogotá,18,Colombiano,No Asegurado,Otro,8
+2018,00 - Bogotá,18,Colombiano,Subsidiado,Otro,23
+2018,00 - Bogotá,18,Extranjero,No Asegurado,Otro,4
+2018,00 - Bogotá,19,Colombiano,Contributivo,Otro,9
+2018,00 - Bogotá,19,Colombiano,Especial,Otro,1
+2018,00 - Bogotá,19,Colombiano,No Asegurado,Otro,3
+2018,00 - Bogotá,19,Colombiano,Subsidiado,Otro,21
+2018,00 - Bogotá,19,Extranjero,Contributivo,Otro,1
+2018,00 - Bogotá,19,Extranjero,No Asegurado,Otro,5
+2018,00 - Bogotá,20,Colombiano,Contributivo,Otro,13
+2018,00 - Bogotá,20,Colombiano,No Asegurado,Otro,10
+2018,00 - Bogotá,20,Colombiano,Subsidiado,Otro,27
+2018,00 - Bogotá,20,Extranjero,No Asegurado,Otro,7
+2018,00 - Bogotá,20,Extranjero,Subsidiado,Otro,1
+2018,00 - Bogotá,21,Colombiano,Contributivo,Otro,16
+2018,00 - Bogotá,21,Colombiano,No Asegurado,Otro,4
+2018,00 - Bogotá,21,Colombiano,Subsidiado,Otro,19
+2018,00 - Bogotá,21,Extranjero,No Asegurado,Otro,9
+2018,00 - Bogotá,22,Colombiano,Contributivo,Otro,21
+2018,00 - Bogotá,22,Colombiano,No Asegurado,Otro,3
+2018,00 - Bogotá,22,Colombiano,Subsidiado,Otro,26
+2018,00 - Bogotá,22,Extranjero,No Asegurado,Otro,9
+2018,00 - Bogotá,23,Colombiano,Contributivo,Otro,12
+2018,00 - Bogotá,23,Colombiano,No Asegurado,Otro,3
+2018,00 - Bogotá,23,Colombiano,Subsidiado,Otro,18
+2018,00 - Bogotá,23,Extranjero,No Asegurado,Otro,13
+2018,00 - Bogotá,23,Extranjero,Subsidiado,Otro,1
+2018,00 - Bogotá,24,Colombiano,Contributivo,Otro,6
+2018,00 - Bogotá,24,Colombiano,No Asegurado,Otro,2
+2018,00 - Bogotá,24,Colombiano,Subsidiado,Otro,15
+2018,00 - Bogotá,24,Extranjero,No Asegurado,Otro,4
+2018,00 - Bogotá,24,Extranjero,Subsidiado,Otro,3
+2018,00 - Bogotá,25,Colombiano,Contributivo,Otro,18
+2018,00 - Bogotá,25,Colombiano,No Asegurado,Otro,3
+2018,00 - Bogotá,25,Colombiano,Subsidiado,Otro,13
+2018,00 - Bogotá,25,Extranjero,No Asegurado,Otro,6
+2018,00 - Bogotá,26,Colombiano,Contributivo,Otro,19
+2018,00 - Bogotá,26,Colombiano,No Asegurado,Otro,4
+2018,00 - Bogotá,26,Colombiano,Subsidiado,Otro,16
+2018,00 - Bogotá,26,Extranjero,No Asegurado,Otro,5
+2018,00 - Bogotá,26,Extranjero,Subsidiado,Otro,1
+2018,00 - Bogotá,27,Colombiano,Contributivo,Otro,11
+2018,00 - Bogotá,27,Colombiano,No Asegurado,Otro,5
+2018,00 - Bogotá,27,Colombiano,Subsidiado,Otro,10
+2018,00 - Bogotá,27,Extranjero,No Asegurado,Otro,4
+2018,00 - Bogotá,28,Colombiano,Contributivo,Otro,22
+2018,00 - Bogotá,28,Colombiano,No Asegurado,Otro,5
+2018,00 - Bogotá,28,Colombiano,Subsidiado,Otro,9
+2018,00 - Bogotá,28,Extranjero,No Asegurado,Otro,8
+2018,00 - Bogotá,29,Colombiano,Contributivo,Otro,14
+2018,00 - Bogotá,29,Colombiano,Subsidiado,Otro,13
+2018,00 - Bogotá,29,Extranjero,No Asegurado,Otro,4
+2018,00 - Bogotá,29,Extranjero,Subsidiado,Otro,1
+2018,00 - Bogotá,30,Colombiano,Contributivo,Otro,13
+2018,00 - Bogotá,30,Colombiano,Subsidiado,Otro,4
+2018,00 - Bogotá,30,Extranjero,No Asegurado,Otro,2
+2018,00 - Bogotá,30,Extranjero,Subsidiado,Otro,1
+2018,00 - Bogotá,31,Colombiano,Contributivo,Otro,15
+2018,00 - Bogotá,31,Colombiano,No Asegurado,Otro,1
+2018,00 - Bogotá,31,Colombiano,Subsidiado,Otro,5
+2018,00 - Bogotá,31,Extranjero,No Asegurado,Otro,3
+2018,00 - Bogotá,32,Colombiano,Contributivo,Otro,11
+2018,00 - Bogotá,32,Colombiano,Subsidiado,Otro,8
+2018,00 - Bogotá,33,Colombiano,Contributivo,Otro,8
+2018,00 - Bogotá,33,Colombiano,No Asegurado,Otro,3
+2018,00 - Bogotá,33,Colombiano,Subsidiado,Otro,7
+2018,00 - Bogotá,34,Colombiano,Contributivo,Otro,12
+2018,00 - Bogotá,34,Colombiano,Subsidiado,Otro,4
+2018,00 - Bogotá,34,Extranjero,No Asegurado,Otro,1
+2018,00 - Bogotá,34,Extranjero,Subsidiado,Otro,1
+2018,00 - Bogotá,35,Colombiano,Contributivo,Otro,7
+2018,00 - Bogotá,35,Colombiano,Subsidiado,Otro,5
+2018,00 - Bogotá,36,Colombiano,Contributivo,Otro,5
+2018,00 - Bogotá,36,Colombiano,Subsidiado,Otro,5
+2018,00 - Bogotá,37,Colombiano,Contributivo,Otro,9
+2018,00 - Bogotá,37,Colombiano,No Asegurado,Otro,1
+2018,00 - Bogotá,37,Colombiano,Subsidiado,Otro,5
+2018,00 - Bogotá,37,Extranjero,No Asegurado,Otro,2
+2018,00 - Bogotá,38,Colombiano,Contributivo,Otro,5
+2018,00 - Bogotá,38,Colombiano,No Asegurado,Otro,1
+2018,00 - Bogotá,38,Colombiano,Subsidiado,Otro,7
+2018,00 - Bogotá,38,Extranjero,No Asegurado,Otro,1
+2018,00 - Bogotá,39,Colombiano,Contributivo,Otro,5
+2018,00 - Bogotá,39,Colombiano,Subsidiado,Otro,2
+2018,00 - Bogotá,40,Colombiano,Contributivo,Otro,3
+2018,00 - Bogotá,40,Colombiano,Subsidiado,Otro,3
+2018,00 - Bogotá,41,Colombiano,Contributivo,Otro,2
+2018,00 - Bogotá,41,Colombiano,Subsidiado,Otro,3
+2018,00 - Bogotá,42,Colombiano,Contributivo,Otro,2
+2018,00 - Bogotá,42,Colombiano,Subsidiado,Otro,7
+2018,00 - Bogotá,43,Colombiano,Contributivo,Otro,1
+2018,00 - Bogotá,43,Colombiano,Subsidiado,Otro,4
+2018,00 - Bogotá,44,Colombiano,Contributivo,Otro,2
+2018,00 - Bogotá,45,Colombiano,Contributivo,Otro,1
+2019,00 - Bogotá,13,Colombiano,Contributivo,Otro,1
+2019,00 - Bogotá,14,Colombiano,Subsidiado,Otro,1
+2019,00 - Bogotá,15,Colombiano,Subsidiado,Otro,10
+2019,00 - Bogotá,15,Extranjero,No Asegurado,Otro,6
+2019,00 - Bogotá,16,Colombiano,Contributivo,Otro,7
+2019,00 - Bogotá,16,Colombiano,Subsidiado,Otro,7
+2019,00 - Bogotá,16,Extranjero,No Asegurado,Otro,6
+2019,00 - Bogotá,17,Colombiano,Contributivo,Otro,6
+2019,00 - Bogotá,17,Colombiano,Indeterminado/Pendiente,Otro,1
+2019,00 - Bogotá,17,Colombiano,No Asegurado,Otro,1
+2019,00 - Bogotá,17,Colombiano,Subsidiado,Otro,8
+2019,00 - Bogotá,17,Extranjero,No Asegurado,Otro,20
+2019,00 - Bogotá,18,Colombiano,Contributivo,Otro,6
+2019,00 - Bogotá,18,Colombiano,No Asegurado,Otro,1
+2019,00 - Bogotá,18,Colombiano,Subsidiado,Otro,10
+2019,00 - Bogotá,18,Extranjero,No Asegurado,Otro,40
+2019,00 - Bogotá,18,Extranjero,Subsidiado,Otro,3
+2019,00 - Bogotá,19,Colombiano,Contributivo,Otro,19
+2019,00 - Bogotá,19,Colombiano,No Asegurado,Otro,2
+2019,00 - Bogotá,19,Colombiano,Subsidiado,Otro,12
+2019,00 - Bogotá,19,Extranjero,No Asegurado,Otro,41
+2019,00 - Bogotá,19,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,20,Colombiano,Contributivo,Otro,14
+2019,00 - Bogotá,20,Colombiano,No Asegurado,Otro,4
+2019,00 - Bogotá,20,Colombiano,Subsidiado,Otro,19
+2019,00 - Bogotá,20,Extranjero,Contributivo,Otro,2
+2019,00 - Bogotá,20,Extranjero,Indeterminado/Pendiente,Otro,1
+2019,00 - Bogotá,20,Extranjero,No Asegurado,Otro,47
+2019,00 - Bogotá,21,Colombiano,Contributivo,Otro,14
+2019,00 - Bogotá,21,Colombiano,Indeterminado/Pendiente,Otro,1
+2019,00 - Bogotá,21,Colombiano,Subsidiado,Otro,20
+2019,00 - Bogotá,21,Extranjero,Contributivo,Otro,1
+2019,00 - Bogotá,21,Extranjero,Indeterminado/Pendiente,Otro,2
+2019,00 - Bogotá,21,Extranjero,No Asegurado,Otro,50
+2019,00 - Bogotá,21,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,22,Colombiano,Contributivo,Otro,18
+2019,00 - Bogotá,22,Colombiano,Indeterminado/Pendiente,Otro,2
+2019,00 - Bogotá,22,Colombiano,No Asegurado,Otro,1
+2019,00 - Bogotá,22,Colombiano,Subsidiado,Otro,23
+2019,00 - Bogotá,22,Extranjero,Indeterminado/Pendiente,Otro,1
+2019,00 - Bogotá,22,Extranjero,No Asegurado,Otro,38
+2019,00 - Bogotá,22,Extranjero,Subsidiado,Otro,4
+2019,00 - Bogotá,23,Colombiano,Contributivo,Otro,17
+2019,00 - Bogotá,23,Colombiano,No Asegurado,Otro,1
+2019,00 - Bogotá,23,Colombiano,Subsidiado,Otro,17
+2019,00 - Bogotá,23,Extranjero,Contributivo,Otro,2
+2019,00 - Bogotá,23,Extranjero,No Asegurado,Otro,50
+2019,00 - Bogotá,23,Extranjero,Subsidiado,Otro,3
+2019,00 - Bogotá,24,Colombiano,Contributivo,Otro,22
+2019,00 - Bogotá,24,Colombiano,Especial,Otro,1
+2019,00 - Bogotá,24,Colombiano,No Asegurado,Otro,2
+2019,00 - Bogotá,24,Colombiano,Subsidiado,Otro,11
+2019,00 - Bogotá,24,Extranjero,Contributivo,Otro,3
+2019,00 - Bogotá,24,Extranjero,No Asegurado,Otro,34
+2019,00 - Bogotá,24,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,25,Colombiano,Contributivo,Otro,14
+2019,00 - Bogotá,25,Colombiano,No Asegurado,Otro,4
+2019,00 - Bogotá,25,Colombiano,Subsidiado,Otro,17
+2019,00 - Bogotá,25,Extranjero,Contributivo,Otro,2
+2019,00 - Bogotá,25,Extranjero,No Asegurado,Otro,18
+2019,00 - Bogotá,26,Colombiano,Contributivo,Otro,27
+2019,00 - Bogotá,26,Colombiano,Excepción,Otro,1
+2019,00 - Bogotá,26,Colombiano,Subsidiado,Otro,13
+2019,00 - Bogotá,26,Extranjero,Contributivo,Otro,1
+2019,00 - Bogotá,26,Extranjero,No Asegurado,Otro,36
+2019,00 - Bogotá,26,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,27,Colombiano,Contributivo,Otro,19
+2019,00 - Bogotá,27,Colombiano,No Asegurado,Otro,1
+2019,00 - Bogotá,27,Colombiano,Subsidiado,Otro,14
+2019,00 - Bogotá,27,Extranjero,Contributivo,Otro,1
+2019,00 - Bogotá,27,Extranjero,Indeterminado/Pendiente,Otro,2
+2019,00 - Bogotá,27,Extranjero,No Asegurado,Otro,19
+2019,00 - Bogotá,27,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,28,Colombiano,Contributivo,Otro,10
+2019,00 - Bogotá,28,Colombiano,No Asegurado,Otro,2
+2019,00 - Bogotá,28,Colombiano,Subsidiado,Otro,10
+2019,00 - Bogotá,28,Extranjero,Contributivo,Otro,1
+2019,00 - Bogotá,28,Extranjero,No Asegurado,Otro,23
+2019,00 - Bogotá,28,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,29,Colombiano,Contributivo,Otro,13
+2019,00 - Bogotá,29,Colombiano,No Asegurado,Otro,1
+2019,00 - Bogotá,29,Colombiano,Subsidiado,Otro,11
+2019,00 - Bogotá,29,Extranjero,No Asegurado,Otro,15
+2019,00 - Bogotá,30,Colombiano,Contributivo,Otro,16
+2019,00 - Bogotá,30,Colombiano,No Asegurado,Otro,2
+2019,00 - Bogotá,30,Colombiano,Subsidiado,Otro,8
+2019,00 - Bogotá,30,Extranjero,Contributivo,Otro,1
+2019,00 - Bogotá,30,Extranjero,No Asegurado,Otro,12
+2019,00 - Bogotá,30,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,31,Colombiano,Contributivo,Otro,18
+2019,00 - Bogotá,31,Colombiano,Subsidiado,Otro,8
+2019,00 - Bogotá,31,Extranjero,Contributivo,Otro,3
+2019,00 - Bogotá,31,Extranjero,No Asegurado,Otro,9
+2019,00 - Bogotá,31,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,32,Colombiano,Contributivo,Otro,10
+2019,00 - Bogotá,32,Colombiano,Subsidiado,Otro,4
+2019,00 - Bogotá,32,Extranjero,Contributivo,Otro,1
+2019,00 - Bogotá,32,Extranjero,No Asegurado,Otro,3
+2019,00 - Bogotá,33,Colombiano,Contributivo,Otro,9
+2019,00 - Bogotá,33,Colombiano,Excepción,Otro,1
+2019,00 - Bogotá,33,Colombiano,Subsidiado,Otro,6
+2019,00 - Bogotá,33,Extranjero,No Asegurado,Otro,6
+2019,00 - Bogotá,33,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,34,Colombiano,Contributivo,Otro,11
+2019,00 - Bogotá,34,Colombiano,No Asegurado,Otro,1
+2019,00 - Bogotá,34,Colombiano,Subsidiado,Otro,6
+2019,00 - Bogotá,34,Extranjero,No Asegurado,Otro,5
+2019,00 - Bogotá,35,Colombiano,Contributivo,Otro,8
+2019,00 - Bogotá,35,Colombiano,Subsidiado,Otro,5
+2019,00 - Bogotá,35,Extranjero,No Asegurado,Otro,3
+2019,00 - Bogotá,36,Colombiano,Contributivo,Otro,4
+2019,00 - Bogotá,36,Colombiano,Subsidiado,Otro,3
+2019,00 - Bogotá,36,Extranjero,No Asegurado,Otro,7
+2019,00 - Bogotá,37,Colombiano,Contributivo,Otro,6
+2019,00 - Bogotá,37,Colombiano,Excepción,Otro,1
+2019,00 - Bogotá,37,Colombiano,Subsidiado,Otro,4
+2019,00 - Bogotá,37,Extranjero,Indeterminado/Pendiente,Otro,1
+2019,00 - Bogotá,37,Extranjero,No Asegurado,Otro,3
+2019,00 - Bogotá,38,Colombiano,Contributivo,Otro,3
+2019,00 - Bogotá,38,Colombiano,Subsidiado,Otro,7
+2019,00 - Bogotá,38,Extranjero,No Asegurado,Otro,1
+2019,00 - Bogotá,38,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,39,Colombiano,Contributivo,Otro,5
+2019,00 - Bogotá,39,Colombiano,Subsidiado,Otro,2
+2019,00 - Bogotá,39,Extranjero,No Asegurado,Otro,3
+2019,00 - Bogotá,40,Colombiano,Contributivo,Otro,4
+2019,00 - Bogotá,40,Colombiano,Subsidiado,Otro,1
+2019,00 - Bogotá,40,Extranjero,No Asegurado,Otro,1
+2019,00 - Bogotá,41,Colombiano,Contributivo,Otro,4
+2019,00 - Bogotá,41,Colombiano,Subsidiado,Otro,4
+2019,00 - Bogotá,42,Colombiano,Contributivo,Otro,2
+2019,00 - Bogotá,42,Colombiano,Subsidiado,Otro,1
+2019,00 - Bogotá,42,Extranjero,No Asegurado,Otro,2
+2019,00 - Bogotá,42,Extranjero,Subsidiado,Otro,1
+2019,00 - Bogotá,43,Colombiano,Contributivo,Otro,1
+2019,00 - Bogotá,44,Colombiano,Subsidiado,Otro,1
+2020,00 - Bogotá,14,Colombiano,Subsidiado,Otro,2
+2020,00 - Bogotá,15,Colombiano,Contributivo,Otro,3
+2020,00 - Bogotá,15,Colombiano,Subsidiado,Otro,1
+2020,00 - Bogotá,15,Extranjero,No Asegurado,Otro,8
+2020,00 - Bogotá,16,Colombiano,Contributivo,Otro,5
+2020,00 - Bogotá,16,Colombiano,Subsidiado,Otro,11
+2020,00 - Bogotá,16,Extranjero,No Asegurado,Otro,17
+2020,00 - Bogotá,17,Colombiano,Contributivo,Otro,7
+2020,00 - Bogotá,17,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,17,Colombiano,Subsidiado,Otro,15
+2020,00 - Bogotá,17,Extranjero,No Asegurado,Otro,20
+2020,00 - Bogotá,18,Colombiano,Contributivo,Otro,8
+2020,00 - Bogotá,18,Colombiano,No Asegurado,Otro,2
+2020,00 - Bogotá,18,Colombiano,Subsidiado,Otro,7
+2020,00 - Bogotá,18,Extranjero,No Asegurado,Otro,37
+2020,00 - Bogotá,18,Extranjero,Subsidiado,Otro,3
+2020,00 - Bogotá,19,Colombiano,Contributivo,Otro,23
+2020,00 - Bogotá,19,Colombiano,Especial,Otro,1
+2020,00 - Bogotá,19,Colombiano,No Asegurado,Otro,2
+2020,00 - Bogotá,19,Colombiano,Subsidiado,Otro,16
+2020,00 - Bogotá,19,Extranjero,No Asegurado,Otro,62
+2020,00 - Bogotá,19,Extranjero,Subsidiado,Otro,5
+2020,00 - Bogotá,20,Colombiano,Contributivo,Otro,19
+2020,00 - Bogotá,20,Colombiano,Subsidiado,Otro,13
+2020,00 - Bogotá,20,Extranjero,Contributivo,Otro,2
+2020,00 - Bogotá,20,Extranjero,No Asegurado,Otro,53
+2020,00 - Bogotá,21,Colombiano,Contributivo,Otro,18
+2020,00 - Bogotá,21,Colombiano,Indeterminado/Pendiente,Otro,1
+2020,00 - Bogotá,21,Colombiano,No Asegurado,Otro,4
+2020,00 - Bogotá,21,Colombiano,Subsidiado,Otro,16
+2020,00 - Bogotá,21,Extranjero,No Asegurado,Otro,49
+2020,00 - Bogotá,21,Extranjero,Subsidiado,Otro,4
+2020,00 - Bogotá,22,Colombiano,Contributivo,Otro,15
+2020,00 - Bogotá,22,Colombiano,No Asegurado,Otro,2
+2020,00 - Bogotá,22,Colombiano,Subsidiado,Otro,12
+2020,00 - Bogotá,22,Extranjero,Contributivo,Otro,1
+2020,00 - Bogotá,22,Extranjero,No Asegurado,Otro,63
+2020,00 - Bogotá,23,Colombiano,Contributivo,Otro,16
+2020,00 - Bogotá,23,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,23,Colombiano,Subsidiado,Otro,16
+2020,00 - Bogotá,23,Extranjero,Indeterminado/Pendiente,Otro,1
+2020,00 - Bogotá,23,Extranjero,No Asegurado,Otro,41
+2020,00 - Bogotá,24,Colombiano,Contributivo,Otro,13
+2020,00 - Bogotá,24,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,24,Colombiano,Subsidiado,Otro,17
+2020,00 - Bogotá,24,Extranjero,Contributivo,Otro,1
+2020,00 - Bogotá,24,Extranjero,Indeterminado/Pendiente,Otro,1
+2020,00 - Bogotá,24,Extranjero,No Asegurado,Otro,31
+2020,00 - Bogotá,24,Extranjero,Subsidiado,Otro,3
+2020,00 - Bogotá,25,Colombiano,Contributivo,Otro,17
+2020,00 - Bogotá,25,Colombiano,Indeterminado/Pendiente,Otro,1
+2020,00 - Bogotá,25,Colombiano,No Asegurado,Otro,3
+2020,00 - Bogotá,25,Colombiano,Subsidiado,Otro,19
+2020,00 - Bogotá,25,Extranjero,Contributivo,Otro,3
+2020,00 - Bogotá,25,Extranjero,No Asegurado,Otro,24
+2020,00 - Bogotá,25,Extranjero,Subsidiado,Otro,6
+2020,00 - Bogotá,26,Colombiano,Contributivo,Otro,19
+2020,00 - Bogotá,26,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,26,Colombiano,Subsidiado,Otro,13
+2020,00 - Bogotá,26,Extranjero,Contributivo,Otro,1
+2020,00 - Bogotá,26,Extranjero,No Asegurado,Otro,33
+2020,00 - Bogotá,26,Extranjero,Subsidiado,Otro,1
+2020,00 - Bogotá,27,Colombiano,Contributivo,Otro,15
+2020,00 - Bogotá,27,Colombiano,Indeterminado/Pendiente,Otro,1
+2020,00 - Bogotá,27,Colombiano,Subsidiado,Otro,16
+2020,00 - Bogotá,27,Extranjero,Contributivo,Otro,2
+2020,00 - Bogotá,27,Extranjero,No Asegurado,Otro,13
+2020,00 - Bogotá,27,Extranjero,Subsidiado,Otro,1
+2020,00 - Bogotá,28,Colombiano,Contributivo,Otro,6
+2020,00 - Bogotá,28,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,28,Colombiano,Subsidiado,Otro,10
+2020,00 - Bogotá,28,Extranjero,Contributivo,Otro,1
+2020,00 - Bogotá,28,Extranjero,No Asegurado,Otro,11
+2020,00 - Bogotá,28,Extranjero,Subsidiado,Otro,1
+2020,00 - Bogotá,29,Colombiano,Contributivo,Otro,16
+2020,00 - Bogotá,29,Colombiano,Subsidiado,Otro,12
+2020,00 - Bogotá,29,Extranjero,Contributivo,Otro,2
+2020,00 - Bogotá,29,Extranjero,No Asegurado,Otro,12
+2020,00 - Bogotá,29,Extranjero,Subsidiado,Otro,2
+2020,00 - Bogotá,30,Colombiano,Contributivo,Otro,10
+2020,00 - Bogotá,30,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,30,Colombiano,Subsidiado,Otro,8
+2020,00 - Bogotá,30,Extranjero,Contributivo,Otro,1
+2020,00 - Bogotá,30,Extranjero,Indeterminado/Pendiente,Otro,1
+2020,00 - Bogotá,30,Extranjero,No Asegurado,Otro,13
+2020,00 - Bogotá,31,Colombiano,Contributivo,Otro,9
+2020,00 - Bogotá,31,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,31,Colombiano,Subsidiado,Otro,8
+2020,00 - Bogotá,31,Extranjero,No Asegurado,Otro,10
+2020,00 - Bogotá,31,Extranjero,Subsidiado,Otro,1
+2020,00 - Bogotá,32,Colombiano,Contributivo,Otro,12
+2020,00 - Bogotá,32,Colombiano,Excepción,Otro,1
+2020,00 - Bogotá,32,Colombiano,No Asegurado,Otro,2
+2020,00 - Bogotá,32,Colombiano,Subsidiado,Otro,6
+2020,00 - Bogotá,32,Extranjero,Contributivo,Otro,1
+2020,00 - Bogotá,32,Extranjero,No Asegurado,Otro,15
+2020,00 - Bogotá,32,Extranjero,Subsidiado,Otro,1
+2020,00 - Bogotá,33,Colombiano,Contributivo,Otro,4
+2020,00 - Bogotá,33,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,33,Colombiano,Subsidiado,Otro,9
+2020,00 - Bogotá,33,Extranjero,No Asegurado,Otro,10
+2020,00 - Bogotá,33,Extranjero,Subsidiado,Otro,2
+2020,00 - Bogotá,34,Colombiano,Contributivo,Otro,4
+2020,00 - Bogotá,34,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,34,Colombiano,Subsidiado,Otro,4
+2020,00 - Bogotá,34,Extranjero,No Asegurado,Otro,4
+2020,00 - Bogotá,35,Colombiano,Contributivo,Otro,11
+2020,00 - Bogotá,35,Colombiano,Subsidiado,Otro,11
+2020,00 - Bogotá,35,Extranjero,Contributivo,Otro,1
+2020,00 - Bogotá,35,Extranjero,No Asegurado,Otro,9
+2020,00 - Bogotá,35,Extranjero,Subsidiado,Otro,2
+2020,00 - Bogotá,36,Colombiano,Contributivo,Otro,5
+2020,00 - Bogotá,36,Colombiano,Subsidiado,Otro,7
+2020,00 - Bogotá,36,Extranjero,No Asegurado,Otro,1
+2020,00 - Bogotá,36,Extranjero,Subsidiado,Otro,1
+2020,00 - Bogotá,37,Colombiano,Contributivo,Otro,9
+2020,00 - Bogotá,37,Colombiano,Indeterminado/Pendiente,Otro,1
+2020,00 - Bogotá,37,Colombiano,Subsidiado,Otro,3
+2020,00 - Bogotá,37,Extranjero,No Asegurado,Otro,4
+2020,00 - Bogotá,37,Extranjero,Subsidiado,Otro,1
+2020,00 - Bogotá,38,Colombiano,Contributivo,Otro,3
+2020,00 - Bogotá,38,Colombiano,Subsidiado,Otro,3
+2020,00 - Bogotá,38,Extranjero,No Asegurado,Otro,1
+2020,00 - Bogotá,39,Colombiano,Contributivo,Otro,9
+2020,00 - Bogotá,39,Colombiano,No Asegurado,Otro,1
+2020,00 - Bogotá,39,Colombiano,Subsidiado,Otro,1
+2020,00 - Bogotá,39,Extranjero,No Asegurado,Otro,2
+2020,00 - Bogotá,39,Extranjero,Subsidiado,Otro,1
+2020,00 - Bogotá,40,Colombiano,Contributivo,Otro,3
+2020,00 - Bogotá,40,Extranjero,No Asegurado,Otro,1
+2020,00 - Bogotá,41,Colombiano,Contributivo,Otro,3
+2020,00 - Bogotá,42,Colombiano,Contributivo,Otro,1
+2020,00 - Bogotá,42,Colombiano,Subsidiado,Otro,1
+2020,00 - Bogotá,42,Extranjero,No Asegurado,Otro,1
+2020,00 - Bogotá,43,Colombiano,Contributivo,Otro,4
+2020,00 - Bogotá,43,Colombiano,Subsidiado,Otro,1
+2020,00 - Bogotá,44,Colombiano,Contributivo,Otro,1
+2021,00 - Bogotá,14,Colombiano,Subsidiado,Otro,1
+2021,00 - Bogotá,14,Extranjero,Subsidiado,Otro,1
+2021,00 - Bogotá,15,Colombiano,Contributivo,Otro,3
+2021,00 - Bogotá,15,Colombiano,Subsidiado,Otro,1
+2021,00 - Bogotá,15,Extranjero,No Asegurado,Otro,4
+2021,00 - Bogotá,16,Colombiano,Subsidiado,Otro,3
+2021,00 - Bogotá,16,Extranjero,No Asegurado,Otro,11
+2021,00 - Bogotá,17,Colombiano,Contributivo,Otro,5
+2021,00 - Bogotá,17,Colombiano,No Asegurado,Otro,1
+2021,00 - Bogotá,17,Colombiano,Subsidiado,Otro,7
+2021,00 - Bogotá,17,Extranjero,No Asegurado,Otro,20
+2021,00 - Bogotá,17,Extranjero,Subsidiado,Otro,2
+2021,00 - Bogotá,18,Colombiano,Contributivo,Otro,4
+2021,00 - Bogotá,18,Colombiano,Excepción,Otro,1
+2021,00 - Bogotá,18,Colombiano,Subsidiado,Otro,9
+2021,00 - Bogotá,18,Extranjero,No Asegurado,Otro,32
+2021,00 - Bogotá,19,Colombiano,Contributivo,Otro,10
+2021,00 - Bogotá,19,Colombiano,Excepción,Otro,1
+2021,00 - Bogotá,19,Colombiano,Indeterminado/Pendiente,Otro,1
+2021,00 - Bogotá,19,Colombiano,Subsidiado,Otro,10
+2021,00 - Bogotá,19,Extranjero,No Asegurado,Otro,44
+2021,00 - Bogotá,19,Extranjero,Subsidiado,Otro,1
+2021,00 - Bogotá,20,Colombiano,Contributivo,Otro,10
+2021,00 - Bogotá,20,Colombiano,Subsidiado,Otro,20
+2021,00 - Bogotá,20,Extranjero,Contributivo,Otro,3
+2021,00 - Bogotá,20,Extranjero,Indeterminado/Pendiente,Otro,1
+2021,00 - Bogotá,20,Extranjero,No Asegurado,Otro,46
+2021,00 - Bogotá,21,Colombiano,Contributivo,Otro,18
+2021,00 - Bogotá,21,Colombiano,No Asegurado,Otro,1
+2021,00 - Bogotá,21,Colombiano,Subsidiado,Otro,20
+2021,00 - Bogotá,21,Extranjero,Contributivo,Otro,1
+2021,00 - Bogotá,21,Extranjero,No Asegurado,Otro,44
+2021,00 - Bogotá,21,Extranjero,Subsidiado,Otro,3
+2021,00 - Bogotá,22,Colombiano,Contributivo,Otro,20
+2021,00 - Bogotá,22,Colombiano,No Asegurado,Otro,1
+2021,00 - Bogotá,22,Colombiano,Subsidiado,Otro,16
+2021,00 - Bogotá,22,Extranjero,No Asegurado,Otro,33
+2021,00 - Bogotá,22,Extranjero,Subsidiado,Otro,3
+2021,00 - Bogotá,23,Colombiano,Contributivo,Otro,21
+2021,00 - Bogotá,23,Colombiano,No Asegurado,Otro,1
+2021,00 - Bogotá,23,Colombiano,Subsidiado,Otro,12
+2021,00 - Bogotá,23,Extranjero,Contributivo,Otro,4
+2021,00 - Bogotá,23,Extranjero,No Asegurado,Otro,38
+2021,00 - Bogotá,24,Colombiano,Contributivo,Otro,15
+2021,00 - Bogotá,24,Colombiano,Subsidiado,Otro,20
+2021,00 - Bogotá,24,Extranjero,Contributivo,Otro,2
+2021,00 - Bogotá,24,Extranjero,No Asegurado,Otro,38
+2021,00 - Bogotá,24,Extranjero,Subsidiado,Otro,4
+2021,00 - Bogotá,25,Colombiano,Contributivo,Otro,16
+2021,00 - Bogotá,25,Colombiano,Subsidiado,Otro,18
+2021,00 - Bogotá,25,Extranjero,Contributivo,Otro,1
+2021,00 - Bogotá,25,Extranjero,No Asegurado,Otro,24
+2021,00 - Bogotá,26,Colombiano,Contributivo,Otro,8
+2021,00 - Bogotá,26,Colombiano,No Asegurado,Otro,2
+2021,00 - Bogotá,26,Colombiano,Subsidiado,Otro,11
+2021,00 - Bogotá,26,Extranjero,No Asegurado,Otro,26
+2021,00 - Bogotá,26,Extranjero,Subsidiado,Otro,1
+2021,00 - Bogotá,27,Colombiano,Contributivo,Otro,13
+2021,00 - Bogotá,27,Colombiano,No Asegurado,Otro,1
+2021,00 - Bogotá,27,Colombiano,Subsidiado,Otro,9
+2021,00 - Bogotá,27,Extranjero,No Asegurado,Otro,17
+2021,00 - Bogotá,27,Extranjero,Subsidiado,Otro,2
+2021,00 - Bogotá,28,Colombiano,Contributivo,Otro,16
+2021,00 - Bogotá,28,Colombiano,Excepción,Otro,1
+2021,00 - Bogotá,28,Colombiano,No Asegurado,Otro,1
+2021,00 - Bogotá,28,Colombiano,Subsidiado,Otro,12
+2021,00 - Bogotá,28,Extranjero,No Asegurado,Otro,12
+2021,00 - Bogotá,28,Extranjero,Subsidiado,Otro,2
+2021,00 - Bogotá,29,Colombiano,Contributivo,Otro,15
+2021,00 - Bogotá,29,Colombiano,Subsidiado,Otro,10
+2021,00 - Bogotá,29,Extranjero,No Asegurado,Otro,7
+2021,00 - Bogotá,30,Colombiano,Contributivo,Otro,17
+2021,00 - Bogotá,30,Colombiano,Excepción,Otro,1
+2021,00 - Bogotá,30,Colombiano,Subsidiado,Otro,8
+2021,00 - Bogotá,30,Extranjero,Contributivo,Otro,2
+2021,00 - Bogotá,30,Extranjero,No Asegurado,Otro,11
+2021,00 - Bogotá,30,Extranjero,Subsidiado,Otro,2
+2021,00 - Bogotá,31,Colombiano,Contributivo,Otro,7
+2021,00 - Bogotá,31,Colombiano,Subsidiado,Otro,10
+2021,00 - Bogotá,31,Extranjero,Contributivo,Otro,1
+2021,00 - Bogotá,31,Extranjero,No Asegurado,Otro,10
+2021,00 - Bogotá,31,Extranjero,Subsidiado,Otro,3
+2021,00 - Bogotá,32,Colombiano,Contributivo,Otro,3
+2021,00 - Bogotá,32,Colombiano,Excepción,Otro,1
+2021,00 - Bogotá,32,Colombiano,Subsidiado,Otro,6
+2021,00 - Bogotá,32,Extranjero,Contributivo,Otro,1
+2021,00 - Bogotá,32,Extranjero,No Asegurado,Otro,11
+2021,00 - Bogotá,33,Colombiano,Contributivo,Otro,10
+2021,00 - Bogotá,33,Colombiano,Subsidiado,Otro,9
+2021,00 - Bogotá,33,Extranjero,No Asegurado,Otro,4
+2021,00 - Bogotá,34,Colombiano,Contributivo,Otro,8
+2021,00 - Bogotá,34,Colombiano,Subsidiado,Otro,3
+2021,00 - Bogotá,34,Extranjero,Contributivo,Otro,2
+2021,00 - Bogotá,34,Extranjero,No Asegurado,Otro,7
+2021,00 - Bogotá,34,Extranjero,Subsidiado,Otro,1
+2021,00 - Bogotá,35,Colombiano,Contributivo,Otro,7
+2021,00 - Bogotá,35,Colombiano,Subsidiado,Otro,4
+2021,00 - Bogotá,35,Extranjero,Contributivo,Otro,1
+2021,00 - Bogotá,35,Extranjero,No Asegurado,Otro,5
+2021,00 - Bogotá,35,Extranjero,Subsidiado,Otro,1
+2021,00 - Bogotá,36,Colombiano,Contributivo,Otro,10
+2021,00 - Bogotá,36,Colombiano,Subsidiado,Otro,2
+2021,00 - Bogotá,36,Extranjero,No Asegurado,Otro,2
+2021,00 - Bogotá,36,Extranjero,Subsidiado,Otro,1
+2021,00 - Bogotá,37,Colombiano,Contributivo,Otro,5
+2021,00 - Bogotá,37,Colombiano,Subsidiado,Otro,2
+2021,00 - Bogotá,37,Extranjero,No Asegurado,Otro,1
+2021,00 - Bogotá,38,Colombiano,Contributivo,Otro,5
+2021,00 - Bogotá,38,Colombiano,Subsidiado,Otro,2
+2021,00 - Bogotá,38,Extranjero,No Asegurado,Otro,6
+2021,00 - Bogotá,39,Colombiano,Contributivo,Otro,2
+2021,00 - Bogotá,39,Colombiano,Subsidiado,Otro,2
+2021,00 - Bogotá,39,Extranjero,Contributivo,Otro,1
+2021,00 - Bogotá,39,Extranjero,No Asegurado,Otro,2
+2021,00 - Bogotá,40,Colombiano,Contributivo,Otro,4
+2021,00 - Bogotá,40,Colombiano,Subsidiado,Otro,1
+2021,00 - Bogotá,40,Extranjero,No Asegurado,Otro,3
+2021,00 - Bogotá,41,Colombiano,Contributivo,Otro,2
+2021,00 - Bogotá,41,Colombiano,Subsidiado,Otro,1
+2021,00 - Bogotá,42,Extranjero,No Asegurado,Otro,1
+2021,00 - Bogotá,43,Colombiano,Contributivo,Otro,1
+2021,00 - Bogotá,43,Colombiano,No Asegurado,Otro,1
+2021,00 - Bogotá,44,Colombiano,Excepción,Otro,1
+2021,00 - Bogotá,44,Colombiano,Subsidiado,Otro,1
+2021,00 - Bogotá,45,Colombiano,Subsidiado,Otro,1
+2022,00 - Bogotá,13,Colombiano,Contributivo,Otro,1
+2022,00 - Bogotá,14,Colombiano,Contributivo,Otro,2
+2022,00 - Bogotá,14,Colombiano,Subsidiado,Otro,1
+2022,00 - Bogotá,14,Extranjero,No Asegurado,Otro,1
+2022,00 - Bogotá,16,Colombiano,Contributivo,Otro,3
+2022,00 - Bogotá,16,Colombiano,Subsidiado,Otro,7
+2022,00 - Bogotá,16,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,16,Extranjero,No Asegurado,Otro,8
+2022,00 - Bogotá,16,Extranjero,Subsidiado,Otro,3
+2022,00 - Bogotá,17,Colombiano,Contributivo,Otro,2
+2022,00 - Bogotá,17,Colombiano,Subsidiado,Otro,9
+2022,00 - Bogotá,17,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,17,Extranjero,No Asegurado,Otro,11
+2022,00 - Bogotá,18,Colombiano,Contributivo,Otro,9
+2022,00 - Bogotá,18,Colombiano,Subsidiado,Otro,10
+2022,00 - Bogotá,18,Extranjero,No Asegurado,Otro,20
+2022,00 - Bogotá,19,Colombiano,Contributivo,Otro,9
+2022,00 - Bogotá,19,Colombiano,Subsidiado,Otro,11
+2022,00 - Bogotá,19,Extranjero,Contributivo,Otro,2
+2022,00 - Bogotá,19,Extranjero,No Asegurado,Otro,38
+2022,00 - Bogotá,19,Extranjero,Subsidiado,Otro,6
+2022,00 - Bogotá,20,Colombiano,Contributivo,Otro,8
+2022,00 - Bogotá,20,Colombiano,No Asegurado,Otro,1
+2022,00 - Bogotá,20,Colombiano,Subsidiado,Otro,14
+2022,00 - Bogotá,20,Extranjero,No Asegurado,Otro,14
+2022,00 - Bogotá,20,Extranjero,Subsidiado,Otro,3
+2022,00 - Bogotá,21,Colombiano,Contributivo,Otro,24
+2022,00 - Bogotá,21,Colombiano,Subsidiado,Otro,16
+2022,00 - Bogotá,21,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,21,Extranjero,No Asegurado,Otro,36
+2022,00 - Bogotá,21,Extranjero,Subsidiado,Otro,4
+2022,00 - Bogotá,22,Colombiano,Contributivo,Otro,30
+2022,00 - Bogotá,22,Colombiano,Subsidiado,Otro,16
+2022,00 - Bogotá,22,Extranjero,No Asegurado,Otro,27
+2022,00 - Bogotá,22,Extranjero,Subsidiado,Otro,6
+2022,00 - Bogotá,23,Colombiano,Contributivo,Otro,24
+2022,00 - Bogotá,23,Colombiano,Subsidiado,Otro,22
+2022,00 - Bogotá,23,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,23,Extranjero,No Asegurado,Otro,26
+2022,00 - Bogotá,23,Extranjero,Subsidiado,Otro,8
+2022,00 - Bogotá,24,Colombiano,Contributivo,Otro,13
+2022,00 - Bogotá,24,Colombiano,Subsidiado,Otro,8
+2022,00 - Bogotá,24,Extranjero,Contributivo,Otro,4
+2022,00 - Bogotá,24,Extranjero,No Asegurado,Otro,32
+2022,00 - Bogotá,24,Extranjero,Subsidiado,Otro,5
+2022,00 - Bogotá,25,Colombiano,Contributivo,Otro,29
+2022,00 - Bogotá,25,Colombiano,Subsidiado,Otro,22
+2022,00 - Bogotá,25,Extranjero,Contributivo,Otro,3
+2022,00 - Bogotá,25,Extranjero,No Asegurado,Otro,23
+2022,00 - Bogotá,25,Extranjero,Subsidiado,Otro,4
+2022,00 - Bogotá,26,Colombiano,Contributivo,Otro,22
+2022,00 - Bogotá,26,Colombiano,Excepción,Otro,1
+2022,00 - Bogotá,26,Colombiano,Subsidiado,Otro,13
+2022,00 - Bogotá,26,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,26,Extranjero,No Asegurado,Otro,16
+2022,00 - Bogotá,26,Extranjero,Subsidiado,Otro,6
+2022,00 - Bogotá,27,Colombiano,Contributivo,Otro,14
+2022,00 - Bogotá,27,Colombiano,Excepción,Otro,1
+2022,00 - Bogotá,27,Colombiano,Subsidiado,Otro,11
+2022,00 - Bogotá,27,Extranjero,Contributivo,Otro,2
+2022,00 - Bogotá,27,Extranjero,No Asegurado,Otro,15
+2022,00 - Bogotá,27,Extranjero,Subsidiado,Otro,4
+2022,00 - Bogotá,28,Colombiano,Contributivo,Otro,16
+2022,00 - Bogotá,28,Colombiano,Subsidiado,Otro,6
+2022,00 - Bogotá,28,Extranjero,No Asegurado,Otro,10
+2022,00 - Bogotá,28,Extranjero,Subsidiado,Otro,6
+2022,00 - Bogotá,29,Colombiano,Contributivo,Otro,19
+2022,00 - Bogotá,29,Colombiano,Subsidiado,Otro,9
+2022,00 - Bogotá,29,Extranjero,Contributivo,Otro,2
+2022,00 - Bogotá,29,Extranjero,No Asegurado,Otro,12
+2022,00 - Bogotá,29,Extranjero,Subsidiado,Otro,1
+2022,00 - Bogotá,30,Colombiano,Contributivo,Otro,16
+2022,00 - Bogotá,30,Colombiano,Excepción,Otro,1
+2022,00 - Bogotá,30,Colombiano,Subsidiado,Otro,17
+2022,00 - Bogotá,30,Extranjero,Contributivo,Otro,2
+2022,00 - Bogotá,30,Extranjero,No Asegurado,Otro,9
+2022,00 - Bogotá,30,Extranjero,Subsidiado,Otro,1
+2022,00 - Bogotá,31,Colombiano,Contributivo,Otro,13
+2022,00 - Bogotá,31,Colombiano,Subsidiado,Otro,2
+2022,00 - Bogotá,31,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,31,Extranjero,No Asegurado,Otro,5
+2022,00 - Bogotá,31,Extranjero,Subsidiado,Otro,1
+2022,00 - Bogotá,32,Colombiano,Contributivo,Otro,10
+2022,00 - Bogotá,32,Colombiano,Subsidiado,Otro,6
+2022,00 - Bogotá,32,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,32,Extranjero,No Asegurado,Otro,6
+2022,00 - Bogotá,32,Extranjero,Subsidiado,Otro,3
+2022,00 - Bogotá,33,Colombiano,Contributivo,Otro,11
+2022,00 - Bogotá,33,Colombiano,Subsidiado,Otro,7
+2022,00 - Bogotá,33,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,33,Extranjero,No Asegurado,Otro,5
+2022,00 - Bogotá,33,Extranjero,Subsidiado,Otro,2
+2022,00 - Bogotá,34,Colombiano,Contributivo,Otro,9
+2022,00 - Bogotá,34,Colombiano,Subsidiado,Otro,5
+2022,00 - Bogotá,34,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,34,Extranjero,No Asegurado,Otro,3
+2022,00 - Bogotá,34,Extranjero,Subsidiado,Otro,2
+2022,00 - Bogotá,35,Colombiano,Contributivo,Otro,7
+2022,00 - Bogotá,35,Colombiano,Subsidiado,Otro,8
+2022,00 - Bogotá,35,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,35,Extranjero,No Asegurado,Otro,4
+2022,00 - Bogotá,35,Extranjero,Subsidiado,Otro,1
+2022,00 - Bogotá,36,Colombiano,Contributivo,Otro,5
+2022,00 - Bogotá,36,Colombiano,Subsidiado,Otro,3
+2022,00 - Bogotá,36,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,36,Extranjero,No Asegurado,Otro,5
+2022,00 - Bogotá,37,Colombiano,Contributivo,Otro,7
+2022,00 - Bogotá,37,Colombiano,Subsidiado,Otro,3
+2022,00 - Bogotá,37,Extranjero,No Asegurado,Otro,2
+2022,00 - Bogotá,38,Colombiano,Contributivo,Otro,4
+2022,00 - Bogotá,38,Colombiano,Subsidiado,Otro,2
+2022,00 - Bogotá,38,Extranjero,Subsidiado,Otro,1
+2022,00 - Bogotá,39,Colombiano,Contributivo,Otro,4
+2022,00 - Bogotá,39,Colombiano,Subsidiado,Otro,3
+2022,00 - Bogotá,39,Extranjero,No Asegurado,Otro,1
+2022,00 - Bogotá,39,Extranjero,Subsidiado,Otro,1
+2022,00 - Bogotá,40,Colombiano,Contributivo,Otro,4
+2022,00 - Bogotá,40,Colombiano,No Asegurado,Otro,1
+2022,00 - Bogotá,40,Colombiano,Subsidiado,Otro,1
+2022,00 - Bogotá,40,Extranjero,Contributivo,Otro,1
+2022,00 - Bogotá,40,Extranjero,No Asegurado,Otro,1
+2022,00 - Bogotá,41,Colombiano,Contributivo,Otro,1
+2022,00 - Bogotá,42,Colombiano,Subsidiado,Otro,3
+2022,00 - Bogotá,43,Colombiano,Contributivo,Otro,2
+2022,00 - Bogotá,44,Colombiano,Contributivo,Otro,1
+2022,00 - Bogotá,44,Colombiano,Subsidiado,Otro,2
+2022,00 - Bogotá,44,Extranjero,Subsidiado,Otro,1
+2022,00 - Bogotá,46,Colombiano,Contributivo,Otro,2
+2022,00 - Bogotá,46,Extranjero,No Asegurado,Otro,1
+2023,00 - Bogotá,14,Colombiano,Subsidiado,Otro,2
+2023,00 - Bogotá,14,Extranjero,Subsidiado,Otro,1
+2023,00 - Bogotá,15,Colombiano,Contributivo,Otro,1
+2023,00 - Bogotá,15,Colombiano,Subsidiado,Otro,1
+2023,00 - Bogotá,15,Extranjero,No Asegurado,Otro,2
+2023,00 - Bogotá,15,Extranjero,Subsidiado,Otro,1
+2023,00 - Bogotá,16,Colombiano,Contributivo,Otro,1
+2023,00 - Bogotá,16,Colombiano,Subsidiado,Otro,5
+2023,00 - Bogotá,16,Extranjero,Contributivo,Otro,1
+2023,00 - Bogotá,16,Extranjero,No Asegurado,Otro,7
+2023,00 - Bogotá,16,Extranjero,Subsidiado,Otro,3
+2023,00 - Bogotá,17,Colombiano,Contributivo,Otro,4
+2023,00 - Bogotá,17,Colombiano,Subsidiado,Otro,8
+2023,00 - Bogotá,17,Extranjero,No Asegurado,Otro,5
+2023,00 - Bogotá,17,Extranjero,Subsidiado,Otro,4
+2023,00 - Bogotá,18,Colombiano,Contributivo,Otro,5
+2023,00 - Bogotá,18,Colombiano,No Asegurado,Otro,1
+2023,00 - Bogotá,18,Colombiano,Subsidiado,Otro,7
+2023,00 - Bogotá,18,Extranjero,Indeterminado/Pendiente,Otro,1
+2023,00 - Bogotá,18,Extranjero,No Asegurado,Otro,13
+2023,00 - Bogotá,18,Extranjero,Subsidiado,Otro,4
+2023,00 - Bogotá,19,Colombiano,Contributivo,Otro,8
+2023,00 - Bogotá,19,Colombiano,Subsidiado,Otro,18
+2023,00 - Bogotá,19,Extranjero,No Asegurado,Otro,22
+2023,00 - Bogotá,19,Extranjero,Subsidiado,Otro,2
+2023,00 - Bogotá,20,Colombiano,Contributivo,Otro,15
+2023,00 - Bogotá,20,Colombiano,Subsidiado,Otro,15
+2023,00 - Bogotá,20,Extranjero,No Asegurado,Otro,19
+2023,00 - Bogotá,20,Extranjero,Subsidiado,Otro,6
+2023,00 - Bogotá,21,Colombiano,Contributivo,Otro,20
+2023,00 - Bogotá,21,Colombiano,Subsidiado,Otro,20
+2023,00 - Bogotá,21,Extranjero,Contributivo,Otro,2
+2023,00 - Bogotá,21,Extranjero,No Asegurado,Otro,20
+2023,00 - Bogotá,21,Extranjero,Subsidiado,Otro,7
+2023,00 - Bogotá,22,Colombiano,Contributivo,Otro,21
+2023,00 - Bogotá,22,Colombiano,Indeterminado/Pendiente,Otro,2
+2023,00 - Bogotá,22,Colombiano,Subsidiado,Otro,23
+2023,00 - Bogotá,22,Extranjero,Contributivo,Otro,1
+2023,00 - Bogotá,22,Extranjero,No Asegurado,Otro,24
+2023,00 - Bogotá,22,Extranjero,Subsidiado,Otro,11
+2023,00 - Bogotá,23,Colombiano,Contributivo,Otro,18
+2023,00 - Bogotá,23,Colombiano,Indeterminado/Pendiente,Otro,1
+2023,00 - Bogotá,23,Colombiano,No Asegurado,Otro,2
+2023,00 - Bogotá,23,Colombiano,Subsidiado,Otro,21
+2023,00 - Bogotá,23,Extranjero,Contributivo,Otro,3
+2023,00 - Bogotá,23,Extranjero,No Asegurado,Otro,21
+2023,00 - Bogotá,23,Extranjero,Subsidiado,Otro,11
+2023,00 - Bogotá,24,Colombiano,Contributivo,Otro,24
+2023,00 - Bogotá,24,Colombiano,Excepción,Otro,1
+2023,00 - Bogotá,24,Colombiano,No Asegurado,Otro,1
+2023,00 - Bogotá,24,Colombiano,Subsidiado,Otro,11
+2023,00 - Bogotá,24,Extranjero,Contributivo,Otro,1
+2023,00 - Bogotá,24,Extranjero,No Asegurado,Otro,11
+2023,00 - Bogotá,24,Extranjero,Subsidiado,Otro,9
+2023,00 - Bogotá,25,Colombiano,Contributivo,Otro,13
+2023,00 - Bogotá,25,Colombiano,Subsidiado,Otro,19
+2023,00 - Bogotá,25,Extranjero,Contributivo,Otro,3
+2023,00 - Bogotá,25,Extranjero,No Asegurado,Otro,20
+2023,00 - Bogotá,25,Extranjero,Subsidiado,Otro,8
+2023,00 - Bogotá,26,Colombiano,Contributivo,Otro,16
+2023,00 - Bogotá,26,Colombiano,No Asegurado,Otro,2
+2023,00 - Bogotá,26,Colombiano,Subsidiado,Otro,10
+2023,00 - Bogotá,26,Extranjero,Contributivo,Otro,2
+2023,00 - Bogotá,26,Extranjero,Indeterminado/Pendiente,Otro,1
+2023,00 - Bogotá,26,Extranjero,No Asegurado,Otro,11
+2023,00 - Bogotá,26,Extranjero,Subsidiado,Otro,8
+2023,00 - Bogotá,27,Colombiano,Contributivo,Otro,22
+2023,00 - Bogotá,27,Colombiano,Subsidiado,Otro,11
+2023,00 - Bogotá,27,Extranjero,Contributivo,Otro,4
+2023,00 - Bogotá,27,Extranjero,No Asegurado,Otro,7
+2023,00 - Bogotá,27,Extranjero,Subsidiado,Otro,3
+2023,00 - Bogotá,28,Colombiano,Contributivo,Otro,11
+2023,00 - Bogotá,28,Colombiano,Subsidiado,Otro,9
+2023,00 - Bogotá,28,Extranjero,Contributivo,Otro,2
+2023,00 - Bogotá,28,Extranjero,No Asegurado,Otro,5
+2023,00 - Bogotá,28,Extranjero,Subsidiado,Otro,5
+2023,00 - Bogotá,29,Colombiano,Contributivo,Otro,13
+2023,00 - Bogotá,29,Colombiano,Subsidiado,Otro,7
+2023,00 - Bogotá,29,Extranjero,No Asegurado,Otro,2
+2023,00 - Bogotá,29,Extranjero,Subsidiado,Otro,1
+2023,00 - Bogotá,30,Colombiano,Contributivo,Otro,15
+2023,00 - Bogotá,30,Colombiano,Subsidiado,Otro,11
+2023,00 - Bogotá,30,Extranjero,Contributivo,Otro,2
+2023,00 - Bogotá,30,Extranjero,No Asegurado,Otro,3
+2023,00 - Bogotá,30,Extranjero,Subsidiado,Otro,5
+2023,00 - Bogotá,31,Colombiano,Contributivo,Otro,10
+2023,00 - Bogotá,31,Colombiano,Subsidiado,Otro,7
+2023,00 - Bogotá,31,Extranjero,Contributivo,Otro,2
+2023,00 - Bogotá,31,Extranjero,No Asegurado,Otro,4
+2023,00 - Bogotá,31,Extranjero,Subsidiado,Otro,5
+2023,00 - Bogotá,32,Colombiano,Contributivo,Otro,8
+2023,00 - Bogotá,32,Colombiano,No Asegurado,Otro,1
+2023,00 - Bogotá,32,Colombiano,Subsidiado,Otro,7
+2023,00 - Bogotá,32,Extranjero,No Asegurado,Otro,2
+2023,00 - Bogotá,32,Extranjero,Subsidiado,Otro,2
+2023,00 - Bogotá,33,Colombiano,Contributivo,Otro,10
+2023,00 - Bogotá,33,Colombiano,Subsidiado,Otro,8
+2023,00 - Bogotá,33,Extranjero,Contributivo,Otro,5
+2023,00 - Bogotá,33,Extranjero,No Asegurado,Otro,4
+2023,00 - Bogotá,33,Extranjero,Subsidiado,Otro,4
+2023,00 - Bogotá,34,Colombiano,Contributivo,Otro,7
+2023,00 - Bogotá,34,Colombiano,Subsidiado,Otro,4
+2023,00 - Bogotá,34,Extranjero,Subsidiado,Otro,1
+2023,00 - Bogotá,35,Colombiano,Contributivo,Otro,8
+2023,00 - Bogotá,35,Colombiano,Subsidiado,Otro,3
+2023,00 - Bogotá,35,Extranjero,Contributivo,Otro,2
+2023,00 - Bogotá,35,Extranjero,No Asegurado,Otro,2
+2023,00 - Bogotá,36,Colombiano,Contributivo,Otro,11
+2023,00 - Bogotá,36,Colombiano,Subsidiado,Otro,5
+2023,00 - Bogotá,36,Extranjero,No Asegurado,Otro,1
+2023,00 - Bogotá,36,Extranjero,Subsidiado,Otro,1
+2023,00 - Bogotá,37,Colombiano,Contributivo,Otro,5
+2023,00 - Bogotá,37,Colombiano,Subsidiado,Otro,3
+2023,00 - Bogotá,37,Extranjero,Subsidiado,Otro,1
+2023,00 - Bogotá,38,Colombiano,Contributivo,Otro,1
+2023,00 - Bogotá,38,Colombiano,Subsidiado,Otro,1
+2023,00 - Bogotá,38,Extranjero,Contributivo,Otro,1
+2023,00 - Bogotá,38,Extranjero,Subsidiado,Otro,1
+2023,00 - Bogotá,39,Colombiano,Contributivo,Otro,6
+2023,00 - Bogotá,39,Colombiano,No Asegurado,Otro,1
+2023,00 - Bogotá,39,Colombiano,Subsidiado,Otro,3
+2023,00 - Bogotá,39,Extranjero,No Asegurado,Otro,1
+2023,00 - Bogotá,39,Extranjero,Subsidiado,Otro,1
+2023,00 - Bogotá,40,Colombiano,Contributivo,Otro,1
+2023,00 - Bogotá,40,Colombiano,Subsidiado,Otro,2
+2023,00 - Bogotá,40,Extranjero,No Asegurado,Otro,2
+2023,00 - Bogotá,41,Colombiano,Contributivo,Otro,4
+2023,00 - Bogotá,41,Colombiano,Subsidiado,Otro,2
+2023,00 - Bogotá,41,Extranjero,Subsidiado,Otro,2
+2023,00 - Bogotá,42,Colombiano,Contributivo,Otro,1
+2023,00 - Bogotá,42,Colombiano,Subsidiado,Otro,1
+2023,00 - Bogotá,43,Colombiano,Contributivo,Otro,2
+2023,00 - Bogotá,43,Colombiano,Subsidiado,Otro,1
+2023,00 - Bogotá,44,Colombiano,Contributivo,Otro,1
+2023,00 - Bogotá,45,Colombiano,Subsidiado,Otro,1
+2024,00 - Bogotá,14,Colombiano,Subsidiado,Otro,1
+2024,00 - Bogotá,14,Extranjero,No Asegurado,Otro,1
+2024,00 - Bogotá,15,Extranjero,Subsidiado,Otro,1
+2024,00 - Bogotá,16,Colombiano,Contributivo,Otro,2
+2024,00 - Bogotá,16,Colombiano,No Asegurado,Otro,1
+2024,00 - Bogotá,16,Colombiano,Subsidiado,Otro,2
+2024,00 - Bogotá,16,Extranjero,No Asegurado,Otro,1
+2024,00 - Bogotá,17,Colombiano,Contributivo,Otro,4
+2024,00 - Bogotá,17,Colombiano,Subsidiado,Otro,5
+2024,00 - Bogotá,17,Extranjero,No Asegurado,Otro,5
+2024,00 - Bogotá,17,Extranjero,Subsidiado,Otro,2
+2024,00 - Bogotá,18,Colombiano,Contributivo,Otro,8
+2024,00 - Bogotá,18,Colombiano,Subsidiado,Otro,9
+2024,00 - Bogotá,18,Extranjero,Indeterminado/Pendiente,Otro,1
+2024,00 - Bogotá,18,Extranjero,No Asegurado,Otro,8
+2024,00 - Bogotá,18,Extranjero,Subsidiado,Otro,2
+2024,00 - Bogotá,19,Colombiano,Contributivo,Otro,8
+2024,00 - Bogotá,19,Colombiano,Excepción,Otro,1
+2024,00 - Bogotá,19,Colombiano,No Asegurado,Otro,1
+2024,00 - Bogotá,19,Colombiano,Subsidiado,Otro,11
+2024,00 - Bogotá,19,Extranjero,No Asegurado,Otro,10
+2024,00 - Bogotá,19,Extranjero,Subsidiado,Otro,3
+2024,00 - Bogotá,20,Colombiano,Contributivo,Otro,15
+2024,00 - Bogotá,20,Colombiano,Excepción,Otro,1
+2024,00 - Bogotá,20,Colombiano,No Asegurado,Otro,1
+2024,00 - Bogotá,20,Colombiano,Subsidiado,Otro,26
+2024,00 - Bogotá,20,Extranjero,Contributivo,Otro,2
+2024,00 - Bogotá,20,Extranjero,No Asegurado,Otro,16
+2024,00 - Bogotá,20,Extranjero,Subsidiado,Otro,7
+2024,00 - Bogotá,21,Colombiano,Contributivo,Otro,18
+2024,00 - Bogotá,21,Colombiano,Excepción,Otro,1
+2024,00 - Bogotá,21,Colombiano,Indeterminado/Pendiente,Otro,1
+2024,00 - Bogotá,21,Colombiano,Subsidiado,Otro,14
+2024,00 - Bogotá,21,Extranjero,No Asegurado,Otro,15
+2024,00 - Bogotá,21,Extranjero,Subsidiado,Otro,6
+2024,00 - Bogotá,22,Colombiano,Contributivo,Otro,18
+2024,00 - Bogotá,22,Colombiano,No Asegurado,Otro,1
+2024,00 - Bogotá,22,Colombiano,Subsidiado,Otro,16
+2024,00 - Bogotá,22,Extranjero,No Asegurado,Otro,17
+2024,00 - Bogotá,22,Extranjero,Subsidiado,Otro,9
+2024,00 - Bogotá,23,Colombiano,Contributivo,Otro,30
+2024,00 - Bogotá,23,Colombiano,Subsidiado,Otro,21
+2024,00 - Bogotá,23,Extranjero,Excepción,Otro,1
+2024,00 - Bogotá,23,Extranjero,No Asegurado,Otro,8
+2024,00 - Bogotá,23,Extranjero,Subsidiado,Otro,6
+2024,00 - Bogotá,24,Colombiano,Contributivo,Otro,16
+2024,00 - Bogotá,24,Colombiano,Indeterminado/Pendiente,Otro,1
+2024,00 - Bogotá,24,Colombiano,No Asegurado,Otro,1
+2024,00 - Bogotá,24,Colombiano,Subsidiado,Otro,17
+2024,00 - Bogotá,24,Extranjero,Contributivo,Otro,2
+2024,00 - Bogotá,24,Extranjero,Indeterminado/Pendiente,Otro,1
+2024,00 - Bogotá,24,Extranjero,No Asegurado,Otro,18
+2024,00 - Bogotá,24,Extranjero,Subsidiado,Otro,5
+2024,00 - Bogotá,25,Colombiano,Contributivo,Otro,25
+2024,00 - Bogotá,25,Colombiano,Subsidiado,Otro,19
+2024,00 - Bogotá,25,Extranjero,Contributivo,Otro,3
+2024,00 - Bogotá,25,Extranjero,No Asegurado,Otro,3
+2024,00 - Bogotá,25,Extranjero,Subsidiado,Otro,7
+2024,00 - Bogotá,26,Colombiano,Contributivo,Otro,22
+2024,00 - Bogotá,26,Colombiano,Especial,Otro,1
+2024,00 - Bogotá,26,Colombiano,Subsidiado,Otro,13
+2024,00 - Bogotá,26,Extranjero,Contributivo,Otro,4
+2024,00 - Bogotá,26,Extranjero,No Asegurado,Otro,7
+2024,00 - Bogotá,26,Extranjero,Subsidiado,Otro,4
+2024,00 - Bogotá,27,Colombiano,Contributivo,Otro,15
+2024,00 - Bogotá,27,Colombiano,Excepción,Otro,1
+2024,00 - Bogotá,27,Colombiano,Subsidiado,Otro,15
+2024,00 - Bogotá,27,Extranjero,Contributivo,Otro,2
+2024,00 - Bogotá,27,Extranjero,Indeterminado/Pendiente,Otro,1
+2024,00 - Bogotá,27,Extranjero,No Asegurado,Otro,4
+2024,00 - Bogotá,27,Extranjero,Subsidiado,Otro,5
+2024,00 - Bogotá,28,Colombiano,Contributivo,Otro,33
+2024,00 - Bogotá,28,Colombiano,Indeterminado/Pendiente,Otro,1
+2024,00 - Bogotá,28,Colombiano,Subsidiado,Otro,6
+2024,00 - Bogotá,28,Extranjero,Contributivo,Otro,1
+2024,00 - Bogotá,28,Extranjero,No Asegurado,Otro,8
+2024,00 - Bogotá,28,Extranjero,Subsidiado,Otro,4
+2024,00 - Bogotá,29,Colombiano,Contributivo,Otro,23
+2024,00 - Bogotá,29,Colombiano,No Asegurado,Otro,1
+2024,00 - Bogotá,29,Colombiano,Subsidiado,Otro,11
+2024,00 - Bogotá,29,Extranjero,Contributivo,Otro,2
+2024,00 - Bogotá,29,Extranjero,No Asegurado,Otro,3
+2024,00 - Bogotá,29,Extranjero,Subsidiado,Otro,3
+2024,00 - Bogotá,30,Colombiano,Contributivo,Otro,12
+2024,00 - Bogotá,30,Colombiano,Subsidiado,Otro,6
+2024,00 - Bogotá,30,Extranjero,No Asegurado,Otro,4
+2024,00 - Bogotá,30,Extranjero,Subsidiado,Otro,1
+2024,00 - Bogotá,31,Colombiano,Contributivo,Otro,9
+2024,00 - Bogotá,31,Colombiano,Indeterminado/Pendiente,Otro,2
+2024,00 - Bogotá,31,Colombiano,Subsidiado,Otro,9
+2024,00 - Bogotá,31,Extranjero,Contributivo,Otro,1
+2024,00 - Bogotá,31,Extranjero,No Asegurado,Otro,4
+2024,00 - Bogotá,31,Extranjero,Subsidiado,Otro,4
+2024,00 - Bogotá,32,Colombiano,Contributivo,Otro,9
+2024,00 - Bogotá,32,Colombiano,Subsidiado,Otro,7
+2024,00 - Bogotá,32,Extranjero,No Asegurado,Otro,3
+2024,00 - Bogotá,32,Extranjero,Subsidiado,Otro,1
+2024,00 - Bogotá,33,Colombiano,Contributivo,Otro,6
+2024,00 - Bogotá,33,Colombiano,Especial,Otro,1
+2024,00 - Bogotá,33,Colombiano,Excepción,Otro,1
+2024,00 - Bogotá,33,Colombiano,Subsidiado,Otro,4
+2024,00 - Bogotá,33,Extranjero,No Asegurado,Otro,2
+2024,00 - Bogotá,33,Extranjero,Subsidiado,Otro,3
+2024,00 - Bogotá,34,Colombiano,Contributivo,Otro,8
+2024,00 - Bogotá,34,Colombiano,Subsidiado,Otro,4
+2024,00 - Bogotá,34,Extranjero,Contributivo,Otro,1
+2024,00 - Bogotá,34,Extranjero,Subsidiado,Otro,2
+2024,00 - Bogotá,35,Colombiano,Contributivo,Otro,5
+2024,00 - Bogotá,35,Colombiano,Subsidiado,Otro,1
+2024,00 - Bogotá,35,Extranjero,Contributivo,Otro,1
+2024,00 - Bogotá,35,Extranjero,No Asegurado,Otro,4
+2024,00 - Bogotá,36,Colombiano,Contributivo,Otro,8
+2024,00 - Bogotá,36,Colombiano,Subsidiado,Otro,5
+2024,00 - Bogotá,36,Extranjero,Subsidiado,Otro,1
+2024,00 - Bogotá,37,Colombiano,Contributivo,Otro,6
+2024,00 - Bogotá,37,Colombiano,No Asegurado,Otro,2
+2024,00 - Bogotá,37,Colombiano,Subsidiado,Otro,8
+2024,00 - Bogotá,37,Extranjero,Subsidiado,Otro,3
+2024,00 - Bogotá,38,Colombiano,Contributivo,Otro,1
+2024,00 - Bogotá,38,Colombiano,Subsidiado,Otro,2
+2024,00 - Bogotá,38,Extranjero,No Asegurado,Otro,2
+2024,00 - Bogotá,38,Extranjero,Subsidiado,Otro,2
+2024,00 - Bogotá,39,Colombiano,Contributivo,Otro,4
+2024,00 - Bogotá,39,Colombiano,Subsidiado,Otro,2
+2024,00 - Bogotá,39,Extranjero,No Asegurado,Otro,1
+2024,00 - Bogotá,40,Colombiano,Contributivo,Otro,3
+2024,00 - Bogotá,40,Colombiano,Subsidiado,Otro,3
+2024,00 - Bogotá,40,Extranjero,Subsidiado,Otro,1
+2024,00 - Bogotá,41,Colombiano,Subsidiado,Otro,1
+2024,00 - Bogotá,42,Colombiano,Contributivo,Otro,1
+2024,00 - Bogotá,43,Colombiano,Contributivo,Otro,2
+2024,00 - Bogotá,43,Colombiano,Subsidiado,Otro,2
+2024,00 - Bogotá,44,Colombiano,Contributivo,Otro,1
+2024,00 - Bogotá,44,Colombiano,Subsidiado,Otro,1
+2024,00 - Bogotá,44,Extranjero,Subsidiado,Otro,1
+2024,00 - Bogotá,45,Colombiano,Contributivo,Otro,1
+2025,00 - Bogotá,13,Colombiano,Contributivo,Otro,1
+2025,00 - Bogotá,14,Colombiano,Subsidiado,Otro,1
+2025,00 - Bogotá,14,Extranjero,No Asegurado,Otro,1
+2025,00 - Bogotá,15,Colombiano,Contributivo,Otro,2
+2025,00 - Bogotá,15,Colombiano,Subsidiado,Otro,3
+2025,00 - Bogotá,16,Colombiano,Contributivo,Otro,3
+2025,00 - Bogotá,16,Colombiano,Excepción,Otro,1
+2025,00 - Bogotá,16,Colombiano,Subsidiado,Otro,3
+2025,00 - Bogotá,16,Extranjero,Subsidiado,Otro,1
+2025,00 - Bogotá,17,Colombiano,Contributivo,Otro,6
+2025,00 - Bogotá,17,Colombiano,Subsidiado,Otro,7
+2025,00 - Bogotá,17,Extranjero,Contributivo,Otro,1
+2025,00 - Bogotá,17,Extranjero,No Asegurado,Otro,1
+2025,00 - Bogotá,17,Extranjero,Subsidiado,Otro,2
+2025,00 - Bogotá,18,Colombiano,Contributivo,Otro,7
+2025,00 - Bogotá,18,Colombiano,Subsidiado,Otro,9
+2025,00 - Bogotá,18,Extranjero,No Asegurado,Otro,5
+2025,00 - Bogotá,19,Colombiano,Contributivo,Otro,11
+2025,00 - Bogotá,19,Colombiano,Subsidiado,Otro,20
+2025,00 - Bogotá,19,Extranjero,Indeterminado/Pendiente,Otro,1
+2025,00 - Bogotá,19,Extranjero,No Asegurado,Otro,6
+2025,00 - Bogotá,19,Extranjero,Subsidiado,Otro,2
+2025,00 - Bogotá,20,Colombiano,Contributivo,Otro,24
+2025,00 - Bogotá,20,Colombiano,Subsidiado,Otro,13
+2025,00 - Bogotá,20,Extranjero,Contributivo,Otro,1
+2025,00 - Bogotá,20,Extranjero,No Asegurado,Otro,12
+2025,00 - Bogotá,21,Colombiano,Contributivo,Otro,19
+2025,00 - Bogotá,21,Colombiano,No Asegurado,Otro,1
+2025,00 - Bogotá,21,Colombiano,Subsidiado,Otro,22
+2025,00 - Bogotá,21,Extranjero,Indeterminado/Pendiente,Otro,1
+2025,00 - Bogotá,21,Extranjero,No Asegurado,Otro,17
+2025,00 - Bogotá,21,Extranjero,Subsidiado,Otro,3
+2025,00 - Bogotá,22,Colombiano,Contributivo,Otro,19
+2025,00 - Bogotá,22,Colombiano,Excepción,Otro,2
+2025,00 - Bogotá,22,Colombiano,Subsidiado,Otro,17
+2025,00 - Bogotá,22,Extranjero,No Asegurado,Otro,9
+2025,00 - Bogotá,23,Colombiano,Contributivo,Otro,24
+2025,00 - Bogotá,23,Colombiano,Excepción,Otro,2
+2025,00 - Bogotá,23,Colombiano,Subsidiado,Otro,14
+2025,00 - Bogotá,23,Extranjero,Contributivo,Otro,1
+2025,00 - Bogotá,23,Extranjero,No Asegurado,Otro,9
+2025,00 - Bogotá,23,Extranjero,Subsidiado,Otro,3
+2025,00 - Bogotá,24,Colombiano,Contributivo,Otro,20
+2025,00 - Bogotá,24,Colombiano,Excepción,Otro,1
+2025,00 - Bogotá,24,Colombiano,Subsidiado,Otro,14
+2025,00 - Bogotá,24,Extranjero,Contributivo,Otro,2
+2025,00 - Bogotá,24,Extranjero,No Asegurado,Otro,10
+2025,00 - Bogotá,24,Extranjero,Subsidiado,Otro,4
+2025,00 - Bogotá,25,Colombiano,Contributivo,Otro,11
+2025,00 - Bogotá,25,Colombiano,Subsidiado,Otro,14
+2025,00 - Bogotá,25,Extranjero,Indeterminado/Pendiente,Otro,1
+2025,00 - Bogotá,25,Extranjero,No Asegurado,Otro,7
+2025,00 - Bogotá,25,Extranjero,Subsidiado,Otro,3
+2025,00 - Bogotá,26,Colombiano,Contributivo,Otro,18
+2025,00 - Bogotá,26,Colombiano,Indeterminado/Pendiente,Otro,1
+2025,00 - Bogotá,26,Colombiano,No Asegurado,Otro,2
+2025,00 - Bogotá,26,Colombiano,Subsidiado,Otro,15
+2025,00 - Bogotá,26,Extranjero,Contributivo,Otro,1
+2025,00 - Bogotá,26,Extranjero,Excepción,Otro,1
+2025,00 - Bogotá,26,Extranjero,No Asegurado,Otro,11
+2025,00 - Bogotá,26,Extranjero,Subsidiado,Otro,3
+2025,00 - Bogotá,27,Colombiano,Contributivo,Otro,17
+2025,00 - Bogotá,27,Colombiano,Subsidiado,Otro,21
+2025,00 - Bogotá,27,Extranjero,Contributivo,Otro,1
+2025,00 - Bogotá,27,Extranjero,No Asegurado,Otro,8
+2025,00 - Bogotá,27,Extranjero,Subsidiado,Otro,3
+2025,00 - Bogotá,28,Colombiano,Contributivo,Otro,14
+2025,00 - Bogotá,28,Colombiano,No Asegurado,Otro,1
+2025,00 - Bogotá,28,Colombiano,Subsidiado,Otro,13
+2025,00 - Bogotá,28,Extranjero,No Asegurado,Otro,6
+2025,00 - Bogotá,28,Extranjero,Subsidiado,Otro,3
+2025,00 - Bogotá,29,Colombiano,Contributivo,Otro,7
+2025,00 - Bogotá,29,Colombiano,Subsidiado,Otro,9
+2025,00 - Bogotá,29,Extranjero,Contributivo,Otro,2
+2025,00 - Bogotá,29,Extranjero,No Asegurado,Otro,2
+2025,00 - Bogotá,30,Colombiano,Contributivo,Otro,12
+2025,00 - Bogotá,30,Colombiano,Subsidiado,Otro,3
+2025,00 - Bogotá,30,Extranjero,Contributivo,Otro,1
+2025,00 - Bogotá,30,Extranjero,No Asegurado,Otro,4
+2025,00 - Bogotá,30,Extranjero,Subsidiado,Otro,1
+2025,00 - Bogotá,31,Colombiano,Contributivo,Otro,17
+2025,00 - Bogotá,31,Colombiano,Excepción,Otro,1
+2025,00 - Bogotá,31,Colombiano,Subsidiado,Otro,7
+2025,00 - Bogotá,31,Extranjero,No Asegurado,Otro,3
+2025,00 - Bogotá,32,Colombiano,Contributivo,Otro,9
+2025,00 - Bogotá,32,Colombiano,Excepción,Otro,2
+2025,00 - Bogotá,32,Colombiano,No Asegurado,Otro,1
+2025,00 - Bogotá,32,Colombiano,Subsidiado,Otro,2
+2025,00 - Bogotá,32,Extranjero,Contributivo,Otro,2
+2025,00 - Bogotá,32,Extranjero,No Asegurado,Otro,3
+2025,00 - Bogotá,32,Extranjero,Subsidiado,Otro,1
+2025,00 - Bogotá,33,Colombiano,Contributivo,Otro,6
+2025,00 - Bogotá,33,Colombiano,Subsidiado,Otro,5
+2025,00 - Bogotá,33,Extranjero,Contributivo,Otro,2
+2025,00 - Bogotá,33,Extranjero,No Asegurado,Otro,2
+2025,00 - Bogotá,34,Colombiano,Contributivo,Otro,4
+2025,00 - Bogotá,34,Colombiano,Subsidiado,Otro,2
+2025,00 - Bogotá,34,Extranjero,Contributivo,Otro,2
+2025,00 - Bogotá,34,Extranjero,No Asegurado,Otro,2
+2025,00 - Bogotá,34,Extranjero,Subsidiado,Otro,1
+2025,00 - Bogotá,35,Colombiano,Contributivo,Otro,4
+2025,00 - Bogotá,35,Colombiano,Subsidiado,Otro,2
+2025,00 - Bogotá,35,Extranjero,No Asegurado,Otro,1
+2025,00 - Bogotá,35,Extranjero,Subsidiado,Otro,1
+2025,00 - Bogotá,36,Colombiano,Contributivo,Otro,3
+2025,00 - Bogotá,36,Colombiano,Subsidiado,Otro,1
+2025,00 - Bogotá,36,Extranjero,No Asegurado,Otro,2
+2025,00 - Bogotá,37,Colombiano,Contributivo,Otro,2
+2025,00 - Bogotá,37,Colombiano,Subsidiado,Otro,3
+2025,00 - Bogotá,37,Extranjero,No Asegurado,Otro,1
+2025,00 - Bogotá,38,Colombiano,Contributivo,Otro,1
+2025,00 - Bogotá,38,Extranjero,Subsidiado,Otro,2
+2025,00 - Bogotá,39,Colombiano,Contributivo,Otro,3
+2025,00 - Bogotá,39,Colombiano,Subsidiado,Otro,2
+2025,00 - Bogotá,39,Extranjero,No Asegurado,Otro,1
+2025,00 - Bogotá,40,Colombiano,Contributivo,Otro,2
+2025,00 - Bogotá,40,Extranjero,No Asegurado,Otro,1
+2025,00 - Bogotá,40,Extranjero,Subsidiado,Otro,1
+2025,00 - Bogotá,41,Colombiano,Contributivo,Otro,2
+2025,00 - Bogotá,41,Colombiano,Excepción,Otro,1
+2025,00 - Bogotá,41,Colombiano,No Asegurado,Otro,1
+2025,00 - Bogotá,41,Extranjero,No Asegurado,Otro,1
+2025,00 - Bogotá,42,Colombiano,Contributivo,Otro,2
+2025,00 - Bogotá,42,Colombiano,Subsidiado,Otro,1
+2023,00 - Bogotá,26,Extranjero,Subsidiado,Palenquero,1
+2023,00 - Bogotá,32,Colombiano,Contributivo,Palenquero,1
+2018,00 - Bogotá,22,Colombiano,Contributivo,Raizal,1
+2022,00 - Bogotá,21,Colombiano,Subsidiado,Raizal,1
+2022,00 - Bogotá,25,Colombiano,Subsidiado,Raizal,1
+2023,00 - Bogotá,22,Extranjero,Contributivo,Raizal,1
+2023,00 - Bogotá,24,Colombiano,Subsidiado,Raizal,1
+2018,00 - Bogotá,16,Colombiano,Subsidiado,Rom Gitano,1
+2018,00 - Bogotá,23,Colombiano,Contributivo,Rom Gitano,1
+2018,00 - Bogotá,25,Colombiano,Subsidiado,Rom Gitano,1
+2018,00 - Bogotá,26,Colombiano,Subsidiado,Rom Gitano,1
+2018,00 - Bogotá,28,Colombiano,Contributivo,Rom Gitano,1
+2018,00 - Bogotá,31,Colombiano,Contributivo,Rom Gitano,1
+2018,00 - Bogotá,39,Colombiano,Contributivo,Rom Gitano,1
+2019,00 - Bogotá,18,Colombiano,Contributivo,Rom Gitano,1
+2019,00 - Bogotá,20,Colombiano,Contributivo,Rom Gitano,1
+2019,00 - Bogotá,24,Colombiano,Contributivo,Rom Gitano,1
+2019,00 - Bogotá,25,Extranjero,No Asegurado,Rom Gitano,1
+2020,00 - Bogotá,20,Colombiano,Subsidiado,Rom Gitano,1
+2020,00 - Bogotá,21,Colombiano,Contributivo,Rom Gitano,1
+2020,00 - Bogotá,33,Extranjero,No Asegurado,Rom Gitano,1
+2021,00 - Bogotá,23,Colombiano,Subsidiado,Rom Gitano,1
+2021,00 - Bogotá,26,Extranjero,No Asegurado,Rom Gitano,1
+2022,00 - Bogotá,22,Colombiano,Contributivo,Rom Gitano,1
+2022,00 - Bogotá,23,Extranjero,No Asegurado,Rom Gitano,1
+2023,00 - Bogotá,21,Extranjero,No Asegurado,Rom Gitano,1
+2023,00 - Bogotá,24,Colombiano,Contributivo,Rom Gitano,2
+2025,00 - Bogotá,21,Colombiano,Subsidiado,Rom Gitano,1
