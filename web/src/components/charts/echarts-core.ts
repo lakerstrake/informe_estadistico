@@ -13,6 +13,7 @@ import {
   LegendComponent,
   TitleComponent,
   DatasetComponent,
+  MarkLineComponent,
 } from 'echarts/components';
 import { SVGRenderer } from 'echarts/renderers';
 
@@ -28,6 +29,7 @@ echarts.use([
   LegendComponent,
   TitleComponent,
   DatasetComponent,
+  MarkLineComponent,
   SVGRenderer,
 ]);
 

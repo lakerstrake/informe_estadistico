@@ -1,10 +1,20 @@
 import { motion } from 'framer-motion';
+import stats from '../data/stats.json';
+
+const chips = [
+  { valor: stats.meta.n.toLocaleString('es-CO'), etiqueta: 'registros analizados' },
+  { valor: '2018–2025', etiqueta: 'periodo de estudio' },
+  { valor: 'SaluData', etiqueta: 'fuente oficial · SDS Bogotá' },
+];
 
 export function Hero() {
   return (
-    <section id="inicio" className="relative min-h-[92vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-azul-dark via-azul to-azul-light text-white px-5">
-      {/* patrón geométrico de fondo */}
-      <div className="absolute inset-0 opacity-[0.07]" aria-hidden>
+    <section
+      id="inicio"
+      className="relative min-h-[100svh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-azul-deep via-azul-dark to-azul text-white px-5 py-24"
+    >
+      {/* patrón de puntos */}
+      <div className="absolute inset-0 opacity-[0.08]" aria-hidden>
         <svg width="100%" height="100%">
           <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
             <circle cx="1.5" cy="1.5" r="1.5" fill="white" />
@@ -12,8 +22,21 @@ export function Hero() {
           <rect width="100%" height="100%" fill="url(#grid)" />
         </svg>
       </div>
-      <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-naranja/20 blur-3xl" aria-hidden />
-      <div className="absolute -bottom-32 -left-24 w-96 h-96 rounded-full bg-verde/20 blur-3xl" aria-hidden />
+      <div className="absolute -top-24 -right-24 w-[28rem] h-[28rem] rounded-full bg-naranja/25 blur-3xl" aria-hidden />
+      <div className="absolute -bottom-32 -left-24 w-[28rem] h-[28rem] rounded-full bg-azul-light/30 blur-3xl" aria-hidden />
+
+      {/* silueta de curva normal, decorativa */}
+      <svg
+        className="absolute bottom-0 inset-x-0 w-full h-40 md:h-56 text-white/[0.06]"
+        viewBox="0 0 1200 200"
+        preserveAspectRatio="none"
+        aria-hidden
+      >
+        <path
+          d="M0,200 C200,195 320,180 420,120 C500,72 540,20 600,20 C660,20 700,72 780,120 C880,180 1000,195 1200,200 Z"
+          fill="currentColor"
+        />
+      </svg>
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -21,45 +44,75 @@ export function Hero() {
         transition={{ duration: 0.7 }}
         className="relative z-10 max-w-4xl text-center"
       >
-        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Universidad Militar Nueva Granada" className="h-28 md:h-32 mx-auto mb-8 drop-shadow-lg" />
-        <p className="uppercase tracking-[0.25em] text-white/70 text-xs md:text-sm font-semibold mb-4">
-          Trabajo Final Estadística — Universidad Militar Nueva Granada
+        <img
+          src={`${import.meta.env.BASE_URL}logo.png`}
+          alt="Universidad Militar Nueva Granada"
+          className="h-24 md:h-28 mx-auto mb-8 drop-shadow-lg"
+        />
+        <p className="inline-flex items-center gap-2 border border-white/25 bg-white/10 backdrop-blur rounded-full px-4 py-1.5 uppercase tracking-[0.22em] text-white/85 text-[0.65rem] md:text-xs font-bold mb-6">
+          Trabajo final de Estadística · UMNG
         </p>
-        <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight mb-5">
-          Razón de Prevalencia de Sífilis Gestacional
-          <br className="hidden md:block" /> en Bogotá D.C.
+        <h1 className="display-serif text-4xl sm:text-5xl md:text-[4.2rem] font-bold leading-[1.08] mb-6">
+          Razón de Prevalencia de
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-[#ffb98a]">
+            Sífilis Gestacional
+          </span>
+          en Bogotá D.C.
         </h1>
-        <p className="text-white/85 text-base md:text-lg mb-10">2018 – 2025 · Informe estadístico interactivo</p>
+        <p className="text-white/80 text-base md:text-lg mb-8">
+          Informe estadístico interactivo · análisis descriptivo, regresión y distribución normal
+        </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-white/80 mb-10">
-          <span>Shesly Colorado</span>
-          <span className="opacity-40">·</span>
-          <span>Juan Lagos</span>
-          <span className="opacity-40">·</span>
-          <span>Luis Narváez</span>
+        <div className="flex flex-wrap items-center justify-center gap-2.5 text-sm mb-10">
+          {['Shesly Colorado', 'Juan Lagos', 'Luis Narváez'].map((n) => (
+            <span key={n} className="bg-white/10 border border-white/15 rounded-full px-3.5 py-1 text-white/85">
+              {n}
+            </span>
+          ))}
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-wrap items-center justify-center gap-4 mb-12">
           <a
             href="#resumen"
-            className="bg-white text-azul-dark font-bold px-6 py-3 rounded-full hover:bg-white/90 transition-colors shadow-lg"
+            className="group bg-white text-azul-dark font-bold px-7 py-3.5 rounded-full hover:bg-white/90 transition-all shadow-[0_10px_30px_rgba(0,0,0,0.25)] hover:shadow-[0_14px_36px_rgba(0,0,0,0.3)] hover:-translate-y-0.5"
           >
-            Explorar el informe ↓
+            Explorar el informe
+            <span className="inline-block ml-2 transition-transform group-hover:translate-y-0.5">↓</span>
           </a>
           <a
             href={`${import.meta.env.BASE_URL}docs/Informe_Sifilis_Gestacional_Juan.pdf`}
             target="_blank"
             rel="noreferrer"
-            className="border border-white/40 text-white font-semibold px-6 py-3 rounded-full hover:bg-white/10 transition-colors"
+            className="border border-white/40 text-white font-semibold px-7 py-3.5 rounded-full hover:bg-white/10 hover:border-white/60 transition-all"
           >
             Ver PDF completo
           </a>
         </div>
+
+        <div className="flex flex-wrap justify-center gap-3 md:gap-4">
+          {chips.map((c) => (
+            <div
+              key={c.etiqueta}
+              className="bg-white/10 backdrop-blur border border-white/15 rounded-2xl px-5 py-3 text-left min-w-40"
+            >
+              <p className="tnum text-xl md:text-2xl font-extrabold text-white">{c.valor}</p>
+              <p className="text-[0.7rem] md:text-xs text-white/65 mt-0.5">{c.etiqueta}</p>
+            </div>
+          ))}
+        </div>
       </motion.div>
 
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce text-white/60 text-2xl" aria-hidden>
-        ⌄
-      </div>
+      <motion.a
+        href="#resumen"
+        className="absolute bottom-5 left-1/2 -translate-x-1/2 text-white/60 hover:text-white/90 transition-colors"
+        animate={{ y: [0, 8, 0] }}
+        transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}
+        aria-label="Bajar al resumen"
+      >
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </motion.a>
     </section>
   );
 }

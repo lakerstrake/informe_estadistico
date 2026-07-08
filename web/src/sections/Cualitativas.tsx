@@ -9,36 +9,61 @@ import { fmt, fmtPct } from '../lib/format';
 
 function FreqTable({ rows, catLabel }: { rows: { categoria: string; fi: number; fr: number; pct: number }[]; catLabel: string }) {
   const total = rows.reduce((s, r) => s + r.fi, 0);
+  const maxPct = Math.max(...rows.map((r) => r.pct));
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto rounded-xl ring-1 ring-azul/10">
       <table className="min-w-full text-sm">
         <thead>
-          <tr className="bg-azul text-white">
-            <th className="px-3 py-2 text-left rounded-tl-lg">{catLabel}</th>
-            <th className="px-3 py-2 text-right">fi</th>
-            <th className="px-3 py-2 text-right">fr</th>
-            <th className="px-3 py-2 text-right rounded-tr-lg">%</th>
+          <tr className="bg-gradient-to-r from-azul to-azul-dark text-white">
+            <th className="px-4 py-3 text-left font-semibold">{catLabel}</th>
+            <th className="px-4 py-3 text-right font-semibold">fi</th>
+            <th className="px-4 py-3 text-right font-semibold">fr</th>
+            <th className="px-4 py-3 text-right font-semibold">%</th>
           </tr>
         </thead>
         <tbody>
           {rows.map((r, i) => (
-            <tr key={r.categoria} className={i % 2 ? 'bg-black/[0.02]' : ''}>
-              <td className="px-3 py-2">{r.categoria}</td>
-              <td className="px-3 py-2 text-right">{fmt(r.fi)}</td>
-              <td className="px-3 py-2 text-right">{r.fr.toFixed(4)}</td>
-              <td className="px-3 py-2 text-right font-semibold">{fmtPct(r.pct)}</td>
+            <tr
+              key={r.categoria}
+              className={`transition-colors hover:bg-azul/[0.05] ${i % 2 ? 'bg-azul/[0.025]' : 'bg-white'}`}
+            >
+              <td className="px-4 py-2.5 font-medium text-ink">{r.categoria}</td>
+              <td className="tnum px-4 py-2.5 text-right text-gris">{fmt(r.fi)}</td>
+              <td className="tnum px-4 py-2.5 text-right text-gris">{r.fr.toFixed(4)}</td>
+              <td className="px-4 py-2.5">
+                <div className="flex items-center justify-end gap-2.5">
+                  <span
+                    className="hidden sm:block h-1.5 rounded-full bg-gradient-to-r from-azul/80 to-azul-light/80"
+                    style={{ width: `${Math.max((r.pct / maxPct) * 56, 3)}px` }}
+                    aria-hidden
+                  />
+                  <span className="tnum font-bold text-azul-dark">{fmtPct(r.pct)}</span>
+                </div>
+              </td>
             </tr>
           ))}
-          <tr className="font-bold border-t-2 border-azul/20">
-            <td className="px-3 py-2">Total</td>
-            <td className="px-3 py-2 text-right">{fmt(total)}</td>
-            <td className="px-3 py-2 text-right">1.0000</td>
-            <td className="px-3 py-2 text-right">100.0%</td>
+          <tr className="font-bold bg-azul/[0.06] border-t-2 border-azul/15">
+            <td className="px-4 py-2.5 text-azul-dark">Total</td>
+            <td className="tnum px-4 py-2.5 text-right text-azul-dark">{fmt(total)}</td>
+            <td className="tnum px-4 py-2.5 text-right text-azul-dark">1.0000</td>
+            <td className="tnum px-4 py-2.5 text-right text-azul-dark">100.0%</td>
           </tr>
         </tbody>
       </table>
     </div>
   );
+}
+
+function Analisis({ children }: { children: React.ReactNode }) {
+  return (
+    <p className="text-sm text-gris mt-5 leading-relaxed presentacion-grande border-l-[3px] border-naranja/70 pl-4">
+      <b className="text-azul-dark">Análisis.</b> {children}
+    </p>
+  );
+}
+
+function ChartTitle({ children }: { children: React.ReactNode }) {
+  return <p className="text-sm font-semibold text-azul-dark mb-2">{children}</p>;
 }
 
 function MigranteTab() {
@@ -48,7 +73,7 @@ function MigranteTab() {
     <div className="grid lg:grid-cols-2 gap-8">
       <Card className="p-6">
         <div className="flex items-center justify-between mb-4 gap-3 flex-wrap">
-          <p className="font-semibold text-azul-dark">Tabla 1. Migrante</p>
+          <p className="font-bold text-azul-dark">Tabla 1. Migrante</p>
           <ExplainButton
             payload={{
               title: 'Migrante — ¿cómo se calculó?',
@@ -59,28 +84,27 @@ function MigranteTab() {
           />
         </div>
         <FreqTable rows={stats.migrante} catLabel="Migrante" />
-        <p className="text-sm text-gris mt-4 leading-relaxed presentacion-grande">
-          <b className="text-azul-dark">Análisis.</b> Aunque la mayoría de los casos se presenta en población
-          colombiana, la proporción en población extranjera (38.8%) es considerablemente alta respecto a su
-          participación demográfica en la ciudad, lo que sugiere una vulnerabilidad diferencial asociada a
-          barreras de acceso a controles prenatales.
-        </p>
+        <Analisis>
+          Aunque la mayoría de los casos se presenta en población colombiana, la proporción en población
+          extranjera (38.8%) es considerablemente alta respecto a su participación demográfica en la ciudad, lo
+          que sugiere una vulnerabilidad diferencial asociada a barreras de acceso a controles prenatales.
+        </Analisis>
       </Card>
       <div className="grid sm:grid-cols-2 gap-6">
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Cantidad por nacionalidad</p>
+          <ChartTitle>Cantidad por nacionalidad</ChartTitle>
           <EChart option={barOption(cats, vals)} height={260} />
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Participación porcentual</p>
+          <ChartTitle>Participación porcentual</ChartTitle>
           <EChart option={pieOption(cats, vals)} height={260} />
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Formato dona</p>
+          <ChartTitle>Formato dona</ChartTitle>
           <EChart option={pieOption(cats, vals, { donut: true })} height={260} />
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Diagrama de embudo</p>
+          <ChartTitle>Diagrama de embudo</ChartTitle>
           <EChart option={funnelOption(cats, vals)} height={260} />
         </Card>
       </div>
@@ -95,7 +119,7 @@ function RegimenTab() {
     <div className="grid lg:grid-cols-2 gap-8">
       <Card className="p-6">
         <div className="flex items-center justify-between mb-4 gap-3 flex-wrap">
-          <p className="font-semibold text-azul-dark">Tabla 2. Régimen de Seguridad Social</p>
+          <p className="font-bold text-azul-dark">Tabla 2. Régimen de Seguridad Social</p>
           <ExplainButton
             payload={{
               title: 'Régimen — ¿cómo se calculó?',
@@ -106,30 +130,23 @@ function RegimenTab() {
           />
         </div>
         <FreqTable rows={stats.regimen} catLabel="Régimen" />
-        <p className="text-sm text-gris mt-4 leading-relaxed presentacion-grande">
-          <b className="text-azul-dark">Análisis.</b> La suma de los regímenes Subsidiado y No Asegurado alcanza
-          el 63.1% de los casos, lo cual confirma que la sífilis gestacional se concentra en población con menor
-          cobertura de aseguramiento en salud.
-        </p>
+        <Analisis>
+          La suma de los regímenes Subsidiado y No Asegurado alcanza el 63.1% de los casos, lo cual confirma que
+          la sífilis gestacional se concentra en población con menor cobertura de aseguramiento en salud.
+        </Analisis>
       </Card>
       <div className="grid sm:grid-cols-2 gap-6">
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Cantidad por régimen</p>
+          <ChartTitle>Cantidad por régimen</ChartTitle>
           <EChart option={barOption(cats, vals, { horizontal: true })} height={280} />
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Participación porcentual</p>
+          <ChartTitle>Participación porcentual</ChartTitle>
           <EChart option={pieOption(cats, vals)} height={280} />
         </Card>
         <Card className="p-5 sm:col-span-2">
-          <p className="text-sm font-semibold text-gris mb-2">Comparación por régimen (radar)</p>
-          <EChart
-            option={radarOption(
-              cats.map((c) => ({ name: c, max: 500 })),
-              vals
-            )}
-            height={300}
-          />
+          <ChartTitle>Comparación por régimen (radar)</ChartTitle>
+          <EChart option={radarOption(cats.map((c) => ({ name: c })), vals)} height={300} />
         </Card>
       </div>
     </div>
@@ -143,7 +160,7 @@ function EnfoqueTab() {
     <div className="grid lg:grid-cols-2 gap-8">
       <Card className="p-6">
         <div className="flex items-center justify-between mb-4 gap-3 flex-wrap">
-          <p className="font-semibold text-azul-dark">Tabla 3. Enfoque Diferencial</p>
+          <p className="font-bold text-azul-dark">Tabla 3. Enfoque Diferencial</p>
           <ExplainButton
             payload={{
               title: 'Enfoque diferencial — ¿cómo se calculó?',
@@ -154,19 +171,18 @@ function EnfoqueTab() {
           />
         </div>
         <FreqTable rows={stats.enfoque} catLabel="Enfoque diferencial" />
-        <p className="text-sm text-gris mt-4 leading-relaxed presentacion-grande">
-          <b className="text-azul-dark">Análisis.</b> El 86.8% de los registros no declara un enfoque étnico
-          diferencial ("Otro"). Entre quienes sí lo declaran, la población afrodescendiente (7.1%) e indígena
-          (3.7%) son los grupos más representados.
-        </p>
+        <Analisis>
+          El 86.8% de los registros no declara un enfoque étnico diferencial ("Otro"). Entre quienes sí lo
+          declaran, la población afrodescendiente (7.1%) e indígena (3.7%) son los grupos más representados.
+        </Analisis>
       </Card>
       <div className="grid sm:grid-cols-2 gap-6">
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Frecuencia de casos</p>
+          <ChartTitle>Frecuencia de casos</ChartTitle>
           <EChart option={barOption(cats, vals)} height={280} />
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Distribución porcentual</p>
+          <ChartTitle>Distribución porcentual</ChartTitle>
           <EChart option={pieOption(cats, vals, { donut: true })} height={280} />
         </Card>
       </div>

@@ -53,27 +53,52 @@ export function SustentacionProvider({ children }: { children: ReactNode }) {
       {children}
       <button
         onClick={() => setActive((a) => !a)}
-        className={`fixed bottom-6 right-6 z-30 rounded-full shadow-lg px-5 py-3 font-semibold text-sm transition-colors ${
-          active ? 'bg-naranja text-white' : 'bg-azul text-white hover:bg-azul-dark'
+        className={`fixed bottom-6 right-6 z-30 inline-flex items-center gap-2 rounded-full shadow-[0_8px_24px_rgba(9,46,65,0.3)] px-5 py-3 font-semibold text-sm transition-all hover:-translate-y-0.5 ${
+          active ? 'bg-naranja text-white hover:bg-naranja/90' : 'bg-azul text-white hover:bg-azul-dark'
         }`}
       >
-        {active ? '✕ Salir de modo sustentación' : '▶ Modo sustentación'}
+        {active ? (
+          <>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden>
+              <path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            </svg>
+            Salir de modo sustentación
+          </>
+        ) : (
+          <>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" aria-hidden>
+              <path d="M2.5 1.5v9l8-4.5-8-4.5z" />
+            </svg>
+            Modo sustentación
+          </>
+        )}
       </button>
 
       {active && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-30 flex items-center gap-3 bg-white/95 backdrop-blur rounded-full shadow-lg px-4 py-2.5 border border-black/10">
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-30 flex items-center gap-3 bg-white/95 backdrop-blur rounded-full shadow-[0_8px_24px_rgba(9,46,65,0.2)] px-4 py-2.5 border border-azul/15">
           <button
             onClick={() => goTo(Math.max(idx - 1, 0))}
-            className="w-8 h-8 rounded-full bg-azul/10 text-azul font-bold hover:bg-azul/20"
+            aria-label="Sección anterior"
+            className="w-8 h-8 rounded-full bg-azul/10 text-azul font-bold hover:bg-azul/20 transition-colors"
           >
             ←
           </button>
-          <span className="text-xs font-semibold text-gris w-24 text-center">
-            Sección {idx + 1} / {SECTION_IDS.length}
-          </span>
+          <div className="flex items-center gap-1.5 px-1" aria-label={`Sección ${idx + 1} de ${SECTION_IDS.length}`}>
+            {SECTION_IDS.map((id, i) => (
+              <button
+                key={id}
+                onClick={() => goTo(i)}
+                aria-label={`Ir a la sección ${i + 1}`}
+                className={`rounded-full transition-all ${
+                  i === idx ? 'w-5 h-2 bg-azul' : 'w-2 h-2 bg-azul/25 hover:bg-azul/50'
+                }`}
+              />
+            ))}
+          </div>
           <button
             onClick={() => goTo(Math.min(idx + 1, SECTION_IDS.length - 1))}
-            className="w-8 h-8 rounded-full bg-azul/10 text-azul font-bold hover:bg-azul/20"
+            aria-label="Sección siguiente"
+            className="w-8 h-8 rounded-full bg-azul/10 text-azul font-bold hover:bg-azul/20 transition-colors"
           >
             →
           </button>

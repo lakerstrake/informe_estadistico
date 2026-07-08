@@ -31,10 +31,15 @@ export function Resumen() {
       </div>
 
       <Reveal delay={0.25}>
-        <p className="text-sm text-gris/80 mt-8 italic max-w-3xl">
-          Nota metodológica: cada registro (fila) del conjunto de datos se cuenta una sola vez (N = 1,186), de
-          forma consistente en todas las variables del informe.
-        </p>
+        <div className="mt-8 max-w-3xl flex gap-3 bg-azul/[0.05] border border-azul/10 rounded-xl px-4 py-3.5">
+          <span className="shrink-0 w-5 h-5 mt-0.5 rounded-full bg-azul/15 text-azul text-xs font-bold flex items-center justify-center" aria-hidden>
+            i
+          </span>
+          <p className="text-sm text-gris italic leading-relaxed">
+            Nota metodológica: cada registro (fila) del conjunto de datos se cuenta una sola vez (N = 1,186), de
+            forma consistente en todas las variables del informe.
+          </p>
+        </div>
       </Reveal>
     </Section>
   );

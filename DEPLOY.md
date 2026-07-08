@@ -1,63 +1,44 @@
-# Pasos finales (correr en tu computador, no en este chat)
+# Estado del despliegue
 
-El proyecto ya está completo y probado en la carpeta `web/`. Solo faltan los pasos que dependen de
-tu cuenta de GitHub y de Cloudflare — eso no lo puedo hacer yo por ti.
+El proyecto ya está publicado y funcionando:
 
-## 1. Antes de nada: dos limpiezas rápidas (opcionales pero recomendadas)
+- **Sitio en vivo:** https://informe-estadistico.pages.dev
+- **Repositorio:** https://github.com/lakerstrake/informe_estadistico
+- **Hosting:** Cloudflare Pages (proyecto `informe-estadistico`)
 
-Estos archivos quedaron de un intento previo y no se usan en ningún lado — puedes borrarlos desde
-el explorador de Windows sin problema:
+## Cómo actualizar el sitio
 
-- `web/src/App.css`
-- `web/src/assets/` (toda la carpeta)
+1. Haz los cambios en el código (carpeta `web/`).
+2. Compila y verifica localmente:
 
-Si al correr `npm install` te aparece un error `ENOTEMPTY`, borra la carpeta `web/node_modules`
-completa y vuelve a correr `npm install`.
+   ```powershell
+   cd web
+   npm install
+   npm run build
+   npm run preview
+   ```
 
-## 2. Instalar y probar localmente
+3. Sube los cambios a GitHub:
 
-Abre una terminal (PowerShell) en esta carpeta:
+   ```powershell
+   git add .
+   git commit -m "Descripción del cambio"
+   git push
+   ```
 
-```powershell
-cd web
-npm install
-npm run dev
-```
+4. Despliega la carpeta compilada a Cloudflare Pages:
 
-Abre el link que te muestra (normalmente http://localhost:5173) y revisa que todo se vea bien.
+   ```powershell
+   cd web
+   npx wrangler pages deploy dist --project-name=informe-estadistico --branch=main
+   ```
 
-## 3. Subir a GitHub
+> Opcional: si conectas el repositorio de GitHub al proyecto en el dashboard de Cloudflare
+> (Workers & Pages → informe-estadistico → Settings → Builds → Connect to Git, con
+> root directory `web`, build `npm run build`, output `dist`), cada `git push`
+> desplegará automáticamente sin necesidad del paso 4.
 
-Desde la carpeta raíz `informe_estadistico` (no desde `web`):
-
-```powershell
-git init
-git add .
-git commit -m "Informe estadistico interactivo: sifilis gestacional en Bogota D.C."
-git branch -M main
-git remote add origin https://github.com/lakerstrake/informe_estadistico.git
-git push -u origin main
-```
-
-Si `git init` se queja de que ya existe una carpeta `.git`, no hay problema, solo continúa con los
-siguientes comandos normalmente.
-
-## 4. Desplegar en Cloudflare Pages
-
-1. Entra a https://dash.cloudflare.com
-2. Ve a **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
-3. Autoriza tu cuenta de GitHub y selecciona el repositorio `informe_estadistico`
-4. En la configuración de compilación pon exactamente:
-   - **Framework preset:** Vite
-   - **Root directory:** `web`
-   - **Build command:** `npm run build`
-   - **Build output directory:** `dist`
-5. Dale a **Save and Deploy**
-
-En unos minutos tendrás una URL tipo `informe-estadistico.pages.dev` con el sitio en línea. Cada
-vez que hagas `git push`, Cloudflare vuelve a desplegar automáticamente.
-
-## 5. Para la sustentación
+## Para la sustentación
 
 - El botón azul flotante abajo a la derecha ("▶ Modo sustentación") agranda el contenido y agrega
   navegación entre secciones con flechas (o las teclas ← →) — actívalo antes de exponer.

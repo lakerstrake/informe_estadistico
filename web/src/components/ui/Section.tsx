@@ -18,7 +18,9 @@ export function Section({
     <section
       id={id}
       data-section
-      className={`scroll-mt-20 py-16 md:py-24 px-5 md:px-10 ${dark ? 'bg-azul text-white' : ''}`}
+      className={`scroll-mt-20 py-16 md:py-24 px-5 md:px-10 ${
+        dark ? 'bg-gradient-to-br from-azul-deep via-azul-dark to-azul text-white' : ''
+      }`}
     >
       <div className="max-w-6xl mx-auto">
         {title && (
@@ -30,11 +32,22 @@ export function Section({
             className="mb-10 md:mb-14"
           >
             {kicker && (
-              <p className={`text-sm font-semibold tracking-widest uppercase mb-2 ${dark ? 'text-white/70' : 'text-naranja'}`}>
+              <p
+                className={`flex items-center gap-3 text-xs md:text-sm font-bold tracking-[0.2em] uppercase mb-3 ${
+                  dark ? 'text-white/60' : 'text-naranja'
+                }`}
+              >
+                <span className={`h-px w-10 ${dark ? 'bg-white/40' : 'bg-naranja/60'}`} aria-hidden />
                 {kicker}
               </p>
             )}
-            <h2 className={`text-3xl md:text-4xl font-extrabold ${dark ? 'text-white' : 'text-azul-dark'}`}>{title}</h2>
+            <h2
+              className={`display-serif text-3xl md:text-[2.75rem] leading-tight font-bold ${
+                dark ? 'text-white' : 'text-azul-dark'
+              }`}
+            >
+              {title}
+            </h2>
           </motion.div>
         )}
         {children}

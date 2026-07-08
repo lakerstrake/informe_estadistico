@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital@0;1&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
   --font-serif: 'Lora', ui-serif, Georgia, serif;
 
+  /* Identidad institucional (texto, superficies, UI) */
   --color-azul: #156082;
   --color-azul-dark: #0e4560;
+  --color-azul-deep: #092e41;
   --color-azul-light: #4a8bab;
-  --color-naranja: #E97132;
-  --color-verde: #9DC183;
-  --color-gris: #595959;
-  --color-gris-claro: #D9D9D9;
-  --color-bg: #F7F9FA;
-  --color-ink: #1F2937;
+  --color-naranja: #d95e1e;
+  --color-verde: #3f8b4e;
+  --color-gris: #4b5563;
+  --color-gris-claro: #d9d9d9;
+  --color-bg: #f6f9fb;
+  --color-ink: #16232e;
+  --color-linea: #e3ebf1;
 }
 
 html {
@@ -24,18 +26,44 @@ body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-ink);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background-color: var(--color-naranja);
+  background-color: var(--color-azul);
   color: white;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-naranja);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--color-gris-claro); border-radius: 999px; }
+::-webkit-scrollbar-thumb { background: #c3d2dc; border-radius: 999px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-azul-light); }
+
+/* Números alineados en tablas */
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* Título de sección con serif editorial */
+.display-serif {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
 
 /* Presentation mode helpers */
 .sustentacion .presentacion-oculto { display: none !important; }

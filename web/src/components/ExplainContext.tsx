@@ -46,15 +46,17 @@ export function ExplainProvider({ children }: { children: ReactNode }) {
               onClick={close}
             />
             <motion.div
-              className="fixed top-0 right-0 h-full w-full sm:w-[520px] bg-white z-50 shadow-2xl flex flex-col"
+              className="fixed top-0 right-0 h-full w-full sm:w-[520px] bg-white z-50 shadow-2xl flex flex-col sm:rounded-l-2xl overflow-hidden"
               initial={{ x: '100%' }}
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 28, stiffness: 260 }}
+              role="dialog"
+              aria-label={payload.title}
             >
-              <div className="flex items-center justify-between px-5 py-4 border-b border-black/10 bg-azul text-white">
+              <div className="flex items-center justify-between px-5 py-4 border-b border-black/10 bg-gradient-to-r from-azul to-azul-dark text-white">
                 <h3 className="font-bold text-base pr-4">{payload.title}</h3>
-                <button onClick={close} className="text-white/80 hover:text-white text-2xl leading-none">
+                <button onClick={close} aria-label="Cerrar panel" className="text-white/80 hover:text-white text-2xl leading-none">
                   ×
                 </button>
               </div>

@@ -17,15 +17,28 @@ export function Referencias() {
   return (
     <Section id="referencias" kicker="Fuentes" title="Referencias (APA 7)">
       <Reveal>
-        <ol className="space-y-4 text-sm text-gris max-w-3xl">
+        <ol className="max-w-3xl space-y-2.5">
           {refs.map((r, i) => (
-            <li key={i} className="pl-1">
-              {r.text}{' '}
-              {r.url && (
-                <a href={r.url} target="_blank" rel="noreferrer" className="text-azul font-medium hover:underline break-all">
-                  {r.url}
-                </a>
-              )}
+            <li
+              key={i}
+              className="flex gap-4 bg-white border border-azul/10 rounded-xl px-5 py-3.5 text-sm text-gris leading-relaxed hover:border-azul/25 hover:shadow-[0_4px_16px_rgba(9,46,65,0.07)] transition-all"
+            >
+              <span className="tnum shrink-0 font-bold text-naranja/90 w-6 text-right" aria-hidden>
+                {i + 1}.
+              </span>
+              <span>
+                {r.text}{' '}
+                {r.url && (
+                  <a
+                    href={r.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-azul font-medium hover:underline break-all"
+                  >
+                    {r.url}
+                  </a>
+                )}
+              </span>
             </li>
           ))}
         </ol>

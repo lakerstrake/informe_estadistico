@@ -10,11 +10,15 @@ import { fmt, fmtPct } from '../lib/format';
 
 function StatRow({ label, value }: { label: string; value: string }) {
   return (
-    <tr className="border-b border-black/5 last:border-0">
-      <td className="py-1.5 pr-3 text-gris">{label}</td>
-      <td className="py-1.5 text-right font-semibold text-azul-dark">{value}</td>
+    <tr className="border-b border-azul/5 last:border-0 hover:bg-azul/[0.03] transition-colors">
+      <td className="py-2 pr-3 text-gris">{label}</td>
+      <td className="tnum py-2 text-right font-bold text-azul-dark">{value}</td>
     </tr>
   );
+}
+
+function ChartTitle({ children }: { children: React.ReactNode }) {
+  return <p className="text-sm font-semibold text-azul-dark mb-2">{children}</p>;
 }
 
 function AnioTab() {
@@ -26,7 +30,7 @@ function AnioTab() {
       <div className="space-y-6">
         <Card className="p-6">
           <div className="flex items-center justify-between mb-4 gap-3 flex-wrap">
-            <p className="font-semibold text-azul-dark">Medidas estadísticas — Año</p>
+            <p className="font-bold text-azul-dark">Medidas estadísticas — Año</p>
             <ExplainButton
               payload={{
                 title: 'Año — ¿cómo se calculó?',
@@ -48,22 +52,22 @@ function AnioTab() {
           </table>
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Evolución de casos por año</p>
+          <ChartTitle>Evolución de casos por año</ChartTitle>
           <EChart option={lineOption(cats, vals)} height={280} />
         </Card>
       </div>
       <div className="grid sm:grid-cols-2 gap-6">
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Frecuencia por año</p>
+          <ChartTitle>Frecuencia por año</ChartTitle>
           <EChart option={barOption(cats, vals)} height={280} />
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Diagrama de embudo</p>
+          <ChartTitle>Diagrama de embudo</ChartTitle>
           <EChart option={funnelOption(cats, vals)} height={280} />
         </Card>
         <Card className="p-5 sm:col-span-2">
-          <p className="text-sm font-semibold text-gris mb-2">Gráfico de araña (radar)</p>
-          <EChart option={radarOption(cats.map((c) => ({ name: c, max: 180 })), vals)} height={300} />
+          <ChartTitle>Gráfico de araña (radar)</ChartTitle>
+          <EChart option={radarOption(cats.map((c) => ({ name: c })), vals)} height={300} />
         </Card>
       </div>
     </div>
@@ -79,7 +83,7 @@ function EdadTab() {
       <div className="space-y-6">
         <Card className="p-6">
           <div className="flex items-center justify-between mb-4 gap-3 flex-wrap">
-            <p className="font-semibold text-azul-dark">Medidas estadísticas — Edad</p>
+            <p className="font-bold text-azul-dark">Medidas estadísticas — Edad</p>
             <ExplainButton
               payload={{
                 title: 'Edad — ¿cómo se calculó?',
@@ -102,22 +106,22 @@ function EdadTab() {
           </table>
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Histograma</p>
+          <ChartTitle>Histograma</ChartTitle>
           <EChart option={barOption(cats, vals)} height={280} />
         </Card>
       </div>
       <div className="grid sm:grid-cols-2 gap-6">
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Polígono de frecuencias</p>
+          <ChartTitle>Polígono de frecuencias</ChartTitle>
           <EChart option={lineOption(cats, vals)} height={260} />
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Ojiva (frecuencia acumulada)</p>
-          <EChart option={lineOption(cats, stats.edad.tabla.map((r) => r.fiAcum), { color: '#E97132' })} height={260} />
+          <ChartTitle>Ojiva (frecuencia acumulada)</ChartTitle>
+          <EChart option={lineOption(cats, stats.edad.tabla.map((r) => r.fiAcum), { color: '#D95E1E', name: 'Acumulada (Fi)' })} height={260} />
         </Card>
         <Card className="p-5 sm:col-span-2">
-          <p className="text-sm font-semibold text-gris mb-2">Distribución por grupo etario (radial)</p>
-          <EChart option={radarOption(cats.map((c) => ({ name: c, max: 300 })), vals)} height={300} />
+          <ChartTitle>Distribución por grupo etario (radial)</ChartTitle>
+          <EChart option={radarOption(cats.map((c) => ({ name: c })), vals)} height={300} />
         </Card>
       </div>
     </div>
@@ -131,7 +135,7 @@ function RegresionTab() {
     <div className="grid lg:grid-cols-2 gap-8">
       <Card className="p-6">
         <div className="flex items-center justify-between mb-4 gap-3 flex-wrap">
-          <p className="font-semibold text-azul-dark">Regresión lineal: Año → Edad promedio</p>
+          <p className="font-bold text-azul-dark">Regresión lineal: Año → Edad promedio</p>
           <ExplainButton
             payload={{
               title: 'Regresión lineal — ¿cómo se calculó?',
@@ -141,8 +145,10 @@ function RegresionTab() {
             }}
           />
         </div>
-        <Formula tex={`Edad_{prom} = ${stats.regresion.pendiente} \\times Año ${stats.regresion.intercepto < 0 ? '-' : '+'} ${Math.abs(stats.regresion.intercepto)}`} />
-        <table className="w-full text-sm mt-4">
+        <div className="bg-azul/[0.05] border border-azul/10 rounded-xl px-4 py-1 mb-4">
+          <Formula tex={`Edad_{prom} = ${stats.regresion.pendiente} \\times Año ${stats.regresion.intercepto < 0 ? '-' : '+'} ${Math.abs(stats.regresion.intercepto)}`} />
+        </div>
+        <table className="w-full text-sm">
           <tbody>
             <StatRow label="Pendiente (b)" value={fmt(stats.regresion.pendiente, 4)} />
             <StatRow label="Intercepto (a)" value={fmt(stats.regresion.intercepto, 4)} />
@@ -150,7 +156,7 @@ function RegresionTab() {
             <StatRow label="Coeficiente de determinación (r²)" value={`${fmt(stats.regresion.r2 * 100, 1)}%`} />
           </tbody>
         </table>
-        <p className="text-sm text-gris mt-4 leading-relaxed presentacion-grande">
+        <p className="text-sm text-gris mt-5 leading-relaxed presentacion-grande border-l-[3px] border-naranja/70 pl-4">
           <b className="text-azul-dark">Análisis.</b> El modelo obtuvo r² = {fmt(stats.regresion.r2 * 100, 1)}%, lo
           que significa que el año explica apenas esa fracción de la variación en la edad promedio de las
           gestantes. No existe una tendencia lineal relevante: el perfil etario se mantuvo estable entre 2018 y
@@ -158,7 +164,7 @@ function RegresionTab() {
         </p>
       </Card>
       <Card className="p-5">
-        <p className="text-sm font-semibold text-gris mb-2">Dispersión con línea de tendencia</p>
+        <ChartTitle>Dispersión con línea de tendencia</ChartTitle>
         <EChart option={scatterTrendOption(pts, trend, { x: 'Año', y: 'Edad promedio' })} height={380} />
       </Card>
     </div>
@@ -182,7 +188,7 @@ function NormalTab() {
       <div className="grid lg:grid-cols-2 gap-8">
         <Card className="p-6">
           <div className="flex items-center justify-between mb-4 gap-3 flex-wrap">
-            <p className="font-semibold text-azul-dark">Distribución normal aplicada a Edad</p>
+            <p className="font-bold text-azul-dark">Distribución normal aplicada a Edad</p>
             <ExplainButton
               payload={{
                 title: 'Distribución normal — ¿cómo se calculó?',
@@ -192,8 +198,10 @@ function NormalTab() {
               }}
             />
           </div>
-          <Formula tex={'f(x) = \\dfrac{1}{\\sigma\\sqrt{2\\pi}}\\, e^{-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2}'} />
-          <table className="w-full text-sm mt-3">
+          <div className="bg-azul/[0.05] border border-azul/10 rounded-xl px-4 py-1 mb-4">
+            <Formula tex={'f(x) = \\dfrac{1}{\\sigma\\sqrt{2\\pi}}\\, e^{-\\frac{1}{2}\\left(\\frac{x-\\mu}{\\sigma}\\right)^2}'} />
+          </div>
+          <table className="w-full text-sm">
             <tbody>
               <StatRow label="μ (media)" value={`${fmt(stats.normal.mu, 2)} años`} />
               <StatRow label="σ (desviación estándar)" value={`${fmt(stats.normal.sigma, 2)} años`} />
@@ -203,30 +211,30 @@ function NormalTab() {
           </table>
         </Card>
         <Card className="p-5">
-          <p className="text-sm font-semibold text-gris mb-2">Observada vs. esperada bajo normalidad</p>
+          <ChartTitle>Observada vs. esperada bajo normalidad</ChartTitle>
           <EChart option={comparisonBarLineOption(cats, obs, exp)} height={320} />
         </Card>
       </div>
 
       <Card className="p-6">
-        <p className="font-semibold text-azul-dark mb-4">Regla empírica (68-95-99.7)</p>
-        <div className="overflow-x-auto">
+        <p className="font-bold text-azul-dark mb-4">Regla empírica (68-95-99.7)</p>
+        <div className="overflow-x-auto rounded-xl ring-1 ring-azul/10">
           <table className="min-w-full text-sm">
             <thead>
-              <tr className="bg-azul text-white">
-                <th className="px-3 py-2 text-left rounded-tl-lg">Rango</th>
-                <th className="px-3 py-2 text-right">% teórico</th>
-                <th className="px-3 py-2 text-right rounded-tr-lg">% observado</th>
+              <tr className="bg-gradient-to-r from-azul to-azul-dark text-white">
+                <th className="px-4 py-3 text-left font-semibold">Rango</th>
+                <th className="px-4 py-3 text-right font-semibold">% teórico</th>
+                <th className="px-4 py-3 text-right font-semibold">% observado</th>
               </tr>
             </thead>
             <tbody>
               {stats.normal.reglaEmpirica.map((r, i) => (
-                <tr key={r.k} className={i % 2 ? 'bg-black/[0.02]' : ''}>
-                  <td className="px-3 py-2">
+                <tr key={r.k} className={`transition-colors hover:bg-azul/[0.05] ${i % 2 ? 'bg-azul/[0.025]' : 'bg-white'}`}>
+                  <td className="tnum px-4 py-2.5">
                     μ ± {r.k}σ [{fmt(r.lo, 2)}, {fmt(r.hi, 2)}]
                   </td>
-                  <td className="px-3 py-2 text-right">{fmtPct(r.teoricoPct, 2)}</td>
-                  <td className="px-3 py-2 text-right font-semibold">{fmtPct(r.observadoPct, 2)}</td>
+                  <td className="tnum px-4 py-2.5 text-right text-gris">{fmtPct(r.teoricoPct, 2)}</td>
+                  <td className="tnum px-4 py-2.5 text-right font-bold text-azul-dark">{fmtPct(r.observadoPct, 2)}</td>
                 </tr>
               ))}
             </tbody>
@@ -235,8 +243,8 @@ function NormalTab() {
       </Card>
 
       <Card className="p-5">
-        <p className="text-sm font-semibold text-gris mb-2">Curva normal teórica, N(μ, σ²)</p>
-        <EChart option={densityCurveOption(stats.normal.curva, markersOnCurve)} height={340} />
+        <ChartTitle>Curva normal teórica, N(μ, σ²)</ChartTitle>
+        <EChart option={densityCurveOption(stats.normal.curva, markersOnCurve, stats.normal.mu)} height={340} />
       </Card>
     </div>
   );
