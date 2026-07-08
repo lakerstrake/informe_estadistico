@@ -1,10 +1,12 @@
 # Estado del despliegue
 
-El proyecto ya está publicado y funcionando:
+El proyecto ya está publicado, con despliegue automático activado:
 
 - **Sitio en vivo:** https://informe-estadistico.pages.dev
 - **Repositorio:** https://github.com/lakerstrake/informe_estadistico
-- **Hosting:** Cloudflare Pages (proyecto `informe-estadistico`)
+- **Hosting:** Cloudflare Pages (proyecto `informe-estadistico`, conectado a GitHub)
+- **Auto-deploy:** cada `git push` a `main` compila (`npm ci && npm run build` en `web/`)
+  y publica `web/dist` automáticamente. No hace falta ningún comando de wrangler.
 
 ## Cómo actualizar el sitio
 
@@ -18,7 +20,7 @@ El proyecto ya está publicado y funcionando:
    npm run preview
    ```
 
-3. Sube los cambios a GitHub:
+3. Sube los cambios a GitHub — esto ya despliega solo:
 
    ```powershell
    git add .
@@ -26,17 +28,8 @@ El proyecto ya está publicado y funcionando:
    git push
    ```
 
-4. Despliega la carpeta compilada a Cloudflare Pages:
-
-   ```powershell
-   cd web
-   npx wrangler pages deploy dist --project-name=informe-estadistico --branch=main
-   ```
-
-> Opcional: si conectas el repositorio de GitHub al proyecto en el dashboard de Cloudflare
-> (Workers & Pages → informe-estadistico → Settings → Builds → Connect to Git, con
-> root directory `web`, build `npm run build`, output `dist`), cada `git push`
-> desplegará automáticamente sin necesidad del paso 4.
+4. En 1–2 minutos el sitio queda actualizado. Puedes ver el progreso del build en
+   Cloudflare → Workers & Pages → informe-estadistico → Deployments.
 
 ## Para la sustentación
 
