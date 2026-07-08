@@ -24,13 +24,14 @@ export function NavBar() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Scrollspy: resalta la sección visible en el menú.
+  // Scrollspy: resalta la sección visible en el menú (en el hero no se resalta ninguna).
   useEffect(() => {
-    const sections = LINKS.map((l) => document.getElementById(l.id)).filter(Boolean) as HTMLElement[];
+    const ids = ['inicio', ...LINKS.map((l) => l.id)];
+    const sections = ids.map((id) => document.getElementById(id)).filter(Boolean) as HTMLElement[];
     const observer = new IntersectionObserver(
       (entries) => {
         for (const e of entries) {
-          if (e.isIntersecting) setActiveId(e.target.id);
+          if (e.isIntersecting) setActiveId(e.target.id === 'inicio' ? '' : e.target.id);
         }
       },
       { rootMargin: '-35% 0px -55% 0px' }
