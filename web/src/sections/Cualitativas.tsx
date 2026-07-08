@@ -63,8 +63,13 @@ function Analisis({ children }: { children: React.ReactNode }) {
   );
 }
 
-function ChartTitle({ children }: { children: React.ReactNode }) {
-  return <p className="text-sm font-semibold text-azul-dark mb-2">{children}</p>;
+function ChartTitle({ children, note }: { children: React.ReactNode; note?: string }) {
+  return (
+    <div className="mb-2">
+      <p className="text-sm font-semibold text-azul-dark">{children}</p>
+      {note && <p className="text-xs text-gris/80 mt-0.5 leading-snug">{note}</p>}
+    </div>
+  );
 }
 
 function MigranteTab() {
@@ -93,19 +98,19 @@ function MigranteTab() {
       </Card>
       <div className="grid sm:grid-cols-2 gap-6">
         <Card className="p-5">
-          <ChartTitle>Cantidad por nacionalidad</ChartTitle>
+          <ChartTitle note="Barras: comparan de forma directa cuántos casos hay en cada categoría.">Cantidad por nacionalidad</ChartTitle>
           <EChart option={barOption(cats, vals)} height={260} />
         </Card>
         <Card className="p-5">
-          <ChartTitle>Participación porcentual</ChartTitle>
+          <ChartTitle note="Sectores (torta): muestran qué proporción del total representa cada categoría.">Participación porcentual</ChartTitle>
           <EChart option={pieOption(cats, vals)} height={260} />
         </Card>
         <Card className="p-5">
-          <ChartTitle>Formato dona</ChartTitle>
+          <ChartTitle note="Dona: igual que la torta pero libera el centro para destacar el total.">Formato dona</ChartTitle>
           <EChart option={pieOption(cats, vals, { donut: true })} height={260} />
         </Card>
         <Card className="p-5">
-          <ChartTitle>Diagrama de embudo</ChartTitle>
+          <ChartTitle note="Embudo: ordena de mayor a menor para ver la jerarquía entre categorías.">Diagrama de embudo</ChartTitle>
           <EChart option={funnelOption(cats, vals)} height={260} />
         </Card>
       </div>
@@ -138,19 +143,19 @@ function RegimenTab() {
       </Card>
       <div className="grid sm:grid-cols-2 gap-6">
         <Card className="p-5">
-          <ChartTitle>Cantidad por régimen</ChartTitle>
+          <ChartTitle note="Barras horizontales: cómodas cuando hay muchas categorías con nombres largos.">Cantidad por régimen</ChartTitle>
           <EChart option={barOption(cats, vals, { horizontal: true })} height={280} />
         </Card>
         <Card className="p-5">
-          <ChartTitle>Participación porcentual</ChartTitle>
+          <ChartTitle note="Sectores: revelan qué regímenes dominan el total de casos.">Participación porcentual</ChartTitle>
           <EChart option={pieOption(cats, vals)} height={280} />
         </Card>
         <Card className="p-5">
-          <ChartTitle>Diagrama de embudo</ChartTitle>
+          <ChartTitle note="Embudo: ordena los seis regímenes de mayor a menor de un vistazo.">Diagrama de embudo</ChartTitle>
           <EChart option={funnelOption(cats, vals)} height={300} />
         </Card>
         <Card className="p-5">
-          <ChartTitle>Comparación por régimen (radar)</ChartTitle>
+          <ChartTitle note="Radar: compara todas las categorías a la vez sobre un mismo eje circular.">Comparación por régimen (radar)</ChartTitle>
           <EChart option={radarOption(cats.map((c) => ({ name: c })), vals)} height={300} />
         </Card>
       </div>
@@ -183,15 +188,15 @@ function EnfoqueTab() {
       </Card>
       <div className="grid sm:grid-cols-2 gap-6">
         <Card className="p-5">
-          <ChartTitle>Frecuencia de casos</ChartTitle>
+          <ChartTitle note="Barras: dejan ver la enorme diferencia entre 'Otro' y los grupos étnicos declarados.">Frecuencia de casos</ChartTitle>
           <EChart option={barOption(cats, vals)} height={280} />
         </Card>
         <Card className="p-5">
-          <ChartTitle>Distribución porcentual</ChartTitle>
+          <ChartTitle note="Dona: muestra que 'Otro' concentra casi 9 de cada 10 registros.">Distribución porcentual</ChartTitle>
           <EChart option={pieOption(cats, vals, { donut: true })} height={280} />
         </Card>
         <Card className="p-5 sm:col-span-2">
-          <ChartTitle>Nube de palabras (tamaño proporcional a la frecuencia)</ChartTitle>
+          <ChartTitle note="Nube de palabras: el tamaño de cada término refleja su frecuencia; ideal para captar lo dominante de un vistazo.">Nube de palabras (tamaño proporcional a la frecuencia)</ChartTitle>
           <WordCloud
             items={stats.enfoque.map((r) => ({
               text: r.categoria === 'Negro-mulato-afro colombiano' ? 'Afrocolombiano' : r.categoria,

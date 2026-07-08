@@ -1,4 +1,5 @@
 import { Section, Reveal } from '../components/ui/Section';
+import { Figure } from '../components/ui/Figure';
 
 const refs: { text: string; url?: string }[] = [
   { text: 'Alexander, J. (1999). Efficacy of treatment for syphilis in pregnancy. Obstetrics and Gynecology, 93(1), 5–8.', url: 'https://doi.org/10.1016/s0029-7844(98)00338-x' },
@@ -17,6 +18,30 @@ export function Referencias() {
   return (
     <Section id="referencias" kicker="Fuentes" title="Referencias (APA 7)">
       <Reveal>
+        <div className="grid lg:grid-cols-[1fr_1.1fr] gap-8 items-start mb-10">
+          <div>
+            <p className="text-gris leading-relaxed presentacion-grande">
+              Todos los datos analizados provienen del <b className="text-azul-dark">Observatorio de Salud de Bogotá
+              (SaluData)</b>, el portal oficial de datos abiertos de la Secretaría Distrital de Salud. De allí se
+              descargó el conjunto de registros de sífilis gestacional (2018–2025) usado en todo el informe.
+            </p>
+            <a
+              href="https://saludata.saludcapital.gov.co/osb/indicadores/sifilis-gestacional/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 mt-4 bg-azul text-white font-semibold rounded-full px-5 py-3 hover:bg-azul-dark transition-colors"
+            >
+              Ir al indicador en SaluData →
+            </a>
+          </div>
+          <Figure
+            src="img/saluddata.png"
+            alt="Página del Observatorio de Salud de Bogotá (SaluData)"
+            ratio="16 / 9"
+            caption="Portal SaluData — Observatorio de Salud de Bogotá (Secretaría Distrital de Salud), fuente oficial de los datos."
+          />
+        </div>
+
         <ol className="max-w-3xl space-y-2.5">
           {refs.map((r, i) => (
             <li

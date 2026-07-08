@@ -35,8 +35,8 @@ export function ProgressRail() {
         return (
           <a key={s.id} href={`#${s.id}`} className="group flex items-center justify-end gap-2.5" aria-current={on ? 'true' : undefined}>
             <span
-              className={`text-xs font-semibold whitespace-nowrap transition-all duration-300 ${
-                on ? 'opacity-100 text-azul-dark' : 'opacity-0 group-hover:opacity-100 text-gris'
+              className={`text-xs font-semibold whitespace-nowrap bg-white/90 rounded-full px-2 py-0.5 shadow-sm transition-all duration-300 opacity-0 group-hover:opacity-100 ${
+                on ? 'text-azul-dark' : 'text-gris'
               }`}
             >
               <span className="tnum text-naranja mr-1">{String(i + 1).padStart(2, '0')}</span>

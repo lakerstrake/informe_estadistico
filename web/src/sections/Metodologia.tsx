@@ -94,9 +94,20 @@ export function Metodologia() {
               <Formula tex={'\\text{Razón de prevalencia} = \\dfrac{N_s}{N_v + M_f} \\times 1000'} />
             </div>
             <p className="text-sm text-gris mt-4 leading-relaxed">
-              Donde <b>N</b>ₛ es el número de casos de sífilis gestacional, <b>N</b>ᵥ los nacidos vivos y{' '}
-              <b>M</b>f las muertes fetales. El resultado expresa el número de casos por cada 1.000 nacidos vivos
-              más muertes fetales.
+              <b className="text-azul-dark">¿Para qué sirve?</b> Es una <b>razón</b> que mide cuántos casos de sífilis
+              gestacional ocurren en relación con el total de embarazos que terminaron en nacimiento o muerte fetal.
+              Permite comparar la magnitud del problema entre años o territorios de distinto tamaño, porque no depende
+              de cuántos embarazos haya en total.
+            </p>
+            <ul className="text-sm text-gris mt-3 space-y-1.5 list-disc pl-5">
+              <li><b>N</b>ₛ = número de casos de sífilis gestacional (numerador).</li>
+              <li><b>N</b>ᵥ + <b>M</b>f = nacidos vivos + muertes fetales, es decir el total de gestaciones consideradas (denominador).</li>
+            </ul>
+            <p className="text-sm text-gris mt-3 leading-relaxed">
+              <b className="text-azul-dark">¿De dónde sale el ×1000?</b> El cociente daría un número muy pequeño (por
+              ejemplo 0,0071). Multiplicar por <b>1.000</b> lo convierte en una cifra fácil de leer —
+              <b> casos por cada 1.000 nacidos vivos</b>— igual que otros indicadores de salud pública (mortalidad
+              infantil, natalidad). No cambia la proporción, solo la escala.
             </p>
             <p className="text-sm text-gris mt-4 leading-relaxed">
               Para este análisis se utilizó el archivo CSV descargado del portal de Datos Abiertos de Bogotá. Cada
@@ -109,16 +120,26 @@ export function Metodologia() {
       {/* Diagrama del indicador: ayuda visual para la sustentación */}
       <Reveal delay={0.15}>
         <Card className="p-6 mt-8">
-          <p className="flex items-center gap-2 font-bold text-azul-dark mb-5">
+          <p className="flex items-center gap-2 font-bold text-azul-dark mb-2">
             <Icon name="pulse" className="w-5 h-5 text-naranja" /> Cómo se construye el indicador
           </p>
+          <p className="text-sm text-gris mb-5 max-w-3xl leading-relaxed">
+            El indicador combina <b>tres fuentes oficiales</b>. Se toman los casos confirmados de sífilis gestacional
+            (numerador) y se dividen entre el total de gestaciones —nacidos vivos más muertes fetales— (denominador);
+            ese cociente se multiplica por 1.000 para expresarlo en una escala legible. Lee el diagrama de izquierda a
+            derecha:
+          </p>
           <div className="flex flex-col md:flex-row items-stretch gap-2 md:gap-3">
-            <FlowNode icon="fileText" title="Numerador" sub="Casos de sífilis gestacional" tag="SIVIGILA" color="azul" />
+            <FlowNode icon="fileText" title="Numerador" sub="Casos confirmados de sífilis gestacional" tag="SIVIGILA" color="azul" />
             <FlowSep>÷</FlowSep>
             <FlowNode icon="user" title="Denominador" sub="Nacidos vivos + muertes fetales" tag="DANE · RUAF" color="verde" />
             <FlowSep>×1000</FlowSep>
-            <FlowNode icon="pulse" title="Razón de prevalencia" sub="Casos por 1.000 nacidos vivos" tag="Indicador final" color="naranja" />
+            <FlowNode icon="pulse" title="Razón de prevalencia" sub="Casos por cada 1.000 nacidos vivos" tag="Indicador final" color="naranja" />
           </div>
+          <p className="text-xs text-gris mt-4">
+            <b>SIVIGILA</b>: sistema nacional de vigilancia que reporta los casos · <b>DANE</b> y <b>RUAF</b>: registran
+            nacimientos y muertes fetales que forman el denominador.
+          </p>
         </Card>
       </Reveal>
 

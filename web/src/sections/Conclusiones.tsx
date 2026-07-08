@@ -1,29 +1,47 @@
 import { Section, Reveal } from '../components/ui/Section';
+import { Icon } from '../components/ui/Icon';
 
-const conclusiones = [
+const bloques = [
   {
     n: '01',
     cifra: '61,2%',
     cifraLabel: 'de los casos en gestantes colombianas',
-    titulo: 'Variables cualitativas',
-    texto:
-      'El análisis estadístico realizado sobre la razón de prevalencia de sífilis gestacional en Bogotá D.C. entre 2018 y 2025, contando cada registro una sola vez (N = 1,186), permite concluir que esta patología persiste como un desafío relevante para la salud pública distrital. La mayoría de los casos se concentró en gestantes de nacionalidad colombiana (61.2%), afiliadas al régimen subsidiado (38.8%) y sin un enfoque étnico diferencial declarado (86.8%); no obstante, la proporción de casos en población extranjera y en los regímenes de menor cobertura sugiere una vulnerabilidad diferencial asociada a barreras de acceso a controles prenatales.',
+    titulo: 'Perfil cualitativo',
+    img: 'img/sintesis vulnerabilidad.jpg',
+    alt: 'Población migrante caminando',
+    puntos: [
+      '61,2% de los casos en gestantes colombianas, pero 38,8% en población extranjera, muy por encima de su peso demográfico en la ciudad.',
+      '63,1% en regímenes de menor cobertura (Subsidiado 38,8% + No Asegurado 24,3%): barreras de aseguramiento.',
+      '86,8% sin enfoque étnico declarado; entre los declarados, afrodescendientes (7,1%) e indígenas (3,7%).',
+    ],
   },
   {
     n: '02',
     cifra: '20–24',
     cifraLabel: 'años: el grupo etario más afectado',
-    titulo: 'Variables cuantitativas',
-    texto:
-      'La distribución por año se mantuvo relativamente estable, sin una tendencia sostenida de aumento o disminución, mientras que la edad materna se concentró principalmente en el grupo de 20 a 24 años, con una edad promedio de 27.36 años, confirmando que la enfermedad afecta sobre todo a mujeres jóvenes en edad reproductiva. El modelo de regresión lineal entre el año y la edad promedio no evidenció una relación relevante (r² = 3.2%), y la distribución de la Edad mostró un sesgo positivo leve y una forma más aplanada que la normal teórica.',
+    titulo: 'Perfil cuantitativo',
+    img: 'img/vulnerabilidad social..webp',
+    alt: 'Ilustración de mujeres y niñez',
+    puntos: [
+      'Casos estables entre 2018 y 2025, sin tendencia sostenida de aumento o descenso.',
+      'Edad media de 27,4 años y grupo modal de 20–24 años: concentración en mujeres jóvenes.',
+      'Regresión Año → Edad sin relación relevante (r² = 3,2%): el perfil etario no cambió con el tiempo.',
+      'La edad es casi normal, con leve sesgo a la derecha y forma más plana (curtosis negativa).',
+    ],
   },
   {
     n: '03',
-    cifra: '63,1%',
-    cifraLabel: 'en regímenes de menor cobertura',
-    titulo: 'Síntesis',
-    texto:
-      'En conjunto, estos resultados confirman que la sífilis gestacional en Bogotá D.C. se concentra en grupos poblacionales específicos —mujeres jóvenes, migrantes y afiliadas a regímenes de menor cobertura—, lo cual constituye un insumo relevante para orientar la focalización de estrategias de prevención, tamizaje temprano y fortalecimiento de los controles prenatales.',
+    cifra: '3 grupos',
+    cifraLabel: 'jóvenes, migrantes y de baja cobertura',
+    titulo: 'Síntesis y recomendaciones',
+    img: 'img/sintesis.jpeg',
+    alt: 'Jornada de promoción de salud',
+    puntos: [
+      'La sífilis gestacional se concentra en grupos específicos: mujeres jóvenes, migrantes y de menor cobertura.',
+      'Focalizar el tamizaje temprano y los controles prenatales en esos grupos prioritarios.',
+      'Reforzar el acceso efectivo de la población migrante y no asegurada al sistema de salud.',
+      'Insumo útil para orientar estrategias distritales de prevención y control.',
+    ],
   },
 ];
 
@@ -31,20 +49,31 @@ export function Conclusiones() {
   return (
     <Section id="conclusiones" kicker="Síntesis final" title="Conclusiones generales" dark>
       <div className="grid md:grid-cols-3 gap-6">
-        {conclusiones.map((c, i) => (
+        {bloques.map((c, i) => (
           <Reveal key={c.n} delay={i * 0.08}>
-            <article className="h-full bg-white/[0.07] backdrop-blur border border-white/15 rounded-2xl p-6 md:p-7 hover:bg-white/[0.11] hover:border-white/25 transition-colors">
-              <div className="flex items-baseline justify-between mb-4">
-                <p className="display-serif text-4xl font-bold text-white/25" aria-hidden>
-                  {c.n}
-                </p>
-                <div className="text-right">
-                  <p className="tnum text-3xl font-extrabold text-[#ffb98a]">{c.cifra}</p>
-                  <p className="text-[0.65rem] text-white/60 max-w-40">{c.cifraLabel}</p>
+            <article className="h-full flex flex-col bg-white/[0.07] backdrop-blur border border-white/15 rounded-2xl overflow-hidden hover:bg-white/[0.11] hover:border-white/25 transition-colors">
+              <div className="relative h-36 md:h-40">
+                <img src={`${import.meta.env.BASE_URL}${c.img}`} alt={c.alt} loading="lazy" className="absolute inset-0 w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-azul-deep/95 via-azul-dark/40 to-transparent" />
+                <div className="absolute bottom-3 left-4 right-4 flex items-end justify-between">
+                  <span className="display-serif text-3xl font-bold text-white/35">{c.n}</span>
+                  <div className="text-right">
+                    <p className="tnum text-2xl font-extrabold text-[#ffb98a] leading-none">{c.cifra}</p>
+                    <p className="text-[0.6rem] text-white/70 max-w-36 mt-0.5 leading-tight">{c.cifraLabel}</p>
+                  </div>
                 </div>
               </div>
-              <h3 className="font-bold text-white text-lg mb-2.5">{c.titulo}</h3>
-              <p className="text-white/75 text-sm leading-relaxed presentacion-grande">{c.texto}</p>
+              <div className="p-5 md:p-6 flex-1">
+                <h3 className="font-bold text-white text-lg mb-3">{c.titulo}</h3>
+                <ul className="space-y-2.5">
+                  {c.puntos.map((p, j) => (
+                    <li key={j} className="flex gap-2.5 text-white/80 text-sm leading-snug presentacion-grande">
+                      <span className="shrink-0 mt-0.5 text-[#ffb98a]"><Icon name="check" className="w-4 h-4" /></span>
+                      <span>{p}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </article>
           </Reveal>
         ))}
